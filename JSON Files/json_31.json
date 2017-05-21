@@ -1,0 +1,7508 @@
+{
+	"treebank": {
+		"header": {
+			"releaseDate": "25 September 2015",
+			"annotationDate": "Mon May 18 12:44:47 +0000 2015",
+			"annotationScheme": "Guidelines for the syntactic annotation of the Ancient Greek dependency treebank 1.1",
+			"fileDesc": {
+				"editionStmt": {
+					"respStmt": [
+						{
+							"persName": "Giuseppe G. A. Celano",
+							"resp": "release editor: post-annotation normalization and harmonization",
+							"address": "Leipzig University"
+						},
+						{
+							"persName": "Gregory R. Crane",
+							"resp": "supervisor",
+							"address": "Leipzig University and Tufts University"
+						},
+						{
+							"persName": "Bridget Almas",
+							"resp": "responsible for the annotation environment and cts:urn technology",
+							"address": "Tufts University"
+						},
+						{
+							"persName": {
+								"short": "Vanessa Gorman",
+								"name": "Vanessa Gorman",
+								"address": "vbgorman@gmail.com",
+								"uri": "http://data.perseus.org/sosol/users/Vanessa%20Gorman"
+							},
+							"resp": "annotator of the text"
+						}
+					]
+				},
+				"biblStruct": {
+					"monogr": {
+						"author": "Lysias",
+						"title": "Lysias with an English translation by W.R.M. Lamb, M.A.",
+						"imprint": {
+							"publisher": "Cambridge, MA, Harvard University Press; London, William Heinemann Ltd.",
+							"date": "1930"
+						}
+					}
+				}
+			},
+			"encodingDesc": {
+				"_xml:space": "preserve",
+				"__text": "\n    The unannotated text comes from the digital edition of the text specified in the element monogr. \n    The digital edition can be consulted on PerseusDL (https://github.com/PerseusDL/canonical-greekLit),\n    looking up the cts:urn. The annotator(s) may have chosen different variants for the text. \n    "
+			},
+			"profileDesc": {
+				"_xml:space": "preserve",
+				"__text": "\n    Consult the file README.xml for the details concerning normalization and harmonization of the text, \n    and the file TAGSETS.xml for the meaning of the labels used in the annotation. The treebanked text before normalization \n    and harmonization can be consulted on PerseusDL (https://github.com/PerseusDL/treebank_data/tree/master/v1.6).\n    "
+			}
+		},
+		"body": {
+			"sentence": [
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "πολλὰ",
+							"_lemma": "πολύς",
+							"_postag": "a-p---na-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "16"
+						},
+						{
+							"_id": "3",
+							"_form": "λέγειν",
+							"_lemma": "λέγω",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "15"
+						},
+						{
+							"_id": "4",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "5",
+							"_form": "ὦ",
+							"_lemma": "ὦ",
+							"_postag": "i--------",
+							"_relation": "AuxZ",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "ἄνδρες",
+							"_lemma": "ἀνήρ",
+							"_postag": "n-p---mv-",
+							"_relation": "ExD",
+							"_head": "16"
+						},
+						{
+							"_id": "7",
+							"_form": "δικασταί",
+							"_lemma": "δικαστής",
+							"_postag": "n-p---mv-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "8",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "9",
+							"_form": "περὶ",
+							"_lemma": "περί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "3"
+						},
+						{
+							"_id": "10",
+							"_form": "τουτουὶ",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---ng-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "11",
+							"_form": "τοῦ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ng-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "πράγματος",
+							"_lemma": "πρᾶγμα",
+							"_postag": "n-s---ng-",
+							"_relation": "ADV",
+							"_head": "9"
+						},
+						{
+							"_id": "13",
+							"_form": "οὔτ̓",
+							"_lemma": "οὔτε",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "15"
+						},
+						{
+							"_id": "14",
+							"_form": "ἂν",
+							"_lemma": "ἄν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "15"
+						},
+						{
+							"_id": "15",
+							"_form": "δυναίμην",
+							"_lemma": "δύναμαι",
+							"_postag": "v1spoe---",
+							"_relation": "SBJ_CO",
+							"_head": "16"
+						},
+						{
+							"_id": "16",
+							"_form": "οὔτε",
+							"_lemma": "οὐτε",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "0"
+						},
+						{
+							"_id": "17",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "OBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "18",
+							"_form": "δοκεῖ",
+							"_lemma": "δοκέω",
+							"_postag": "v3spia---",
+							"_relation": "SBJ_CO",
+							"_head": "16"
+						},
+						{
+							"_id": "19",
+							"_form": "δεῖν",
+							"_lemma": "δεῖ",
+							"_postag": "v--pna---",
+							"_relation": "SBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "20",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "1",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "1"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὡς",
+							"_lemma": "ὡς",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "12"
+						},
+						{
+							"_id": "2",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "15"
+						},
+						{
+							"_id": "3",
+							"_form": "ὀρθῶς",
+							"_lemma": "ὀρθός",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "6"
+						},
+						{
+							"_id": "4",
+							"_form": "τὴν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "δίκην",
+							"_lemma": "δίκη",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "ἔλαχον",
+							"_lemma": "λαγχάνω",
+							"_postag": "v1saia---",
+							"_relation": "OBJ_AP",
+							"_head": "1"
+						},
+						{
+							"_id": "7",
+							"_form": "τουτῳὶ",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---md-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "Παγκλέωνι",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---md-",
+							"_relation": "OBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "9",
+							"_form": "οὐκ",
+							"_lemma": "οὐ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "10"
+						},
+						{
+							"_id": "10",
+							"_form": "ὄντι",
+							"_lemma": "εἰμί",
+							"_postag": "v-sppamd-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "11",
+							"_form": "Πλαταιεῖ",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---md-",
+							"_relation": "PNOM",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "APOS",
+							"_head": "16"
+						},
+						{
+							"_id": "13",
+							"_form": "τοῦτο",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---na-",
+							"_relation": "OBJ_AP",
+							"_head": "12"
+						},
+						{
+							"_id": "14",
+							"_form": "ὑμῖν",
+							"_lemma": "σύ",
+							"_postag": "p-p---md-",
+							"_relation": "OBJ",
+							"_head": "16"
+						},
+						{
+							"_id": "15",
+							"_form": "πειράσομαι",
+							"_lemma": "πειράω",
+							"_postag": "v1sfimf--",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "16",
+							"_form": "ἀποδεῖξαι",
+							"_lemma": "ἀποδείκνυμι",
+							"_postag": "v--ana---",
+							"_relation": "OBJ",
+							"_head": "15"
+						},
+						{
+							"_id": "17",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "2",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "1"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὡς",
+							"_lemma": "ὡς",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "19"
+						},
+						{
+							"_id": "2",
+							"_form": "γὰρ",
+							"_lemma": "γάρ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "19"
+						},
+						{
+							"_id": "3",
+							"_form": "ἀδικῶν",
+							"_lemma": "ἀδικέω",
+							"_postag": "v-sppamn-",
+							"_relation": "AtvV",
+							"_head": "8"
+						},
+						{
+							"_id": "4",
+							"_form": "με",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---ma-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "5",
+							"_form": "πολὺν",
+							"_lemma": "πολύς",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "χρόνον",
+							"_lemma": "χρόνος",
+							"_postag": "n-s---ma-",
+							"_relation": "ADV",
+							"_head": "8"
+						},
+						{
+							"_id": "7",
+							"_form": "οὐκ",
+							"_lemma": "οὐ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "ἐπαύετο",
+							"_lemma": "παύω",
+							"_postag": "v3siie---",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "9",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": "ἐλθὼν",
+							"_lemma": "ἔρχομαι",
+							"_postag": "v-sapamn-",
+							"_relation": "ADV",
+							"_head": "19"
+						},
+						{
+							"_id": "11",
+							"_form": "ἐπὶ",
+							"_lemma": "ἐπί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "13"
+						},
+						{
+							"_id": "13",
+							"_form": "γναφεῖον",
+							"_lemma": "κναφεῖον",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "11"
+						},
+						{
+							"_id": "14",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "15",
+							"_form": "ἐν",
+							"_lemma": "ἐν",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "17"
+						},
+						{
+							"_id": "16",
+							"_form": "ᾧ",
+							"_lemma": "ὅς",
+							"_postag": "p-s---nd-",
+							"_relation": "ADV",
+							"_head": "15"
+						},
+						{
+							"_id": "17",
+							"_form": "εἰργάζετο",
+							"_lemma": "ἐργάζομαι",
+							"_postag": "v3siie---",
+							"_relation": "ATR",
+							"_head": "13"
+						},
+						{
+							"_id": "18",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "19",
+							"_form": "προσεκαλεσάμην",
+							"_lemma": "προσκαλέω",
+							"_postag": "v1saim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "20",
+							"_form": "αὐτὸν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "19"
+						},
+						{
+							"_id": "21",
+							"_form": "πρὸς",
+							"_lemma": "πρός",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "19"
+						},
+						{
+							"_id": "22",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "23"
+						},
+						{
+							"_id": "23",
+							"_form": "πολέμαρχον",
+							"_lemma": "πολέμαρχος",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "21"
+						},
+						{
+							"_id": "24",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "25",
+							"_form": "νομίζων",
+							"_lemma": "νομίζω",
+							"_postag": "v-sppamn-",
+							"_relation": "ADV",
+							"_head": "19"
+						},
+						{
+							"_id": "26",
+							"_form": "μέτοικον",
+							"_lemma": "μέτοικος",
+							"_postag": "n-s---ma-",
+							"_relation": "PNOM",
+							"_head": "27"
+						},
+						{
+							"_id": "27",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "25"
+						},
+						{
+							"_id": "28",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "3",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "2"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "εἰπόντος",
+							"_lemma": "εἶπον",
+							"_postag": "v-sapamg-",
+							"_relation": "ADV",
+							"_head": "8"
+						},
+						{
+							"_id": "2",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "8"
+						},
+						{
+							"_id": "3",
+							"_form": "τούτου",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---mg-",
+							"_relation": "SBJ",
+							"_head": "1"
+						},
+						{
+							"_id": "4",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "1"
+						},
+						{
+							"_id": "5",
+							"_form": "Πλαταιεὺς",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---mn-",
+							"_relation": "PNOM",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "εἴη",
+							"_lemma": "εἰμί",
+							"_postag": "v3spoa---",
+							"_relation": "OBJ",
+							"_head": "4"
+						},
+						{
+							"_id": "7",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "ἠρόμην",
+							"_lemma": "ἔρομαι",
+							"_postag": "v1saim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "9",
+							"_form": "ὁπόθεν",
+							"_lemma": "ὁπόθεν",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "10"
+						},
+						{
+							"_id": "10",
+							"_form": "δημοτεύοιτο",
+							"_lemma": "δημοτεύομαι",
+							"_postag": "v3spoe---",
+							"_relation": "OBJ",
+							"_head": "8"
+						},
+						{
+							"_id": "11",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "12",
+							"_form": "παραινέσαντός",
+							"_lemma": "παραινέω",
+							"_postag": "v-sapamg-",
+							"_relation": "ADV",
+							"_head": "8"
+						},
+						{
+							"_id": "13",
+							"_form": "τινος",
+							"_lemma": "τις",
+							"_postag": "p-s---mg-",
+							"_relation": "SBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "14",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "15"
+						},
+						{
+							"_id": "15",
+							"_form": "παρόντων",
+							"_lemma": "πάρειμι",
+							"_postag": "v-pppamg-",
+							"_relation": "ATR",
+							"_head": "13"
+						},
+						{
+							"_id": "16",
+							"_form": "προσκαλέσασθαι",
+							"_lemma": "προσκαλέω",
+							"_postag": "v--anm---",
+							"_relation": "OBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "17",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "20"
+						},
+						{
+							"_id": "18",
+							"_form": "πρὸς",
+							"_lemma": "πρός",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "16"
+						},
+						{
+							"_id": "19",
+							"_form": "τὴν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "20"
+						},
+						{
+							"_id": "20",
+							"_form": "φυλήν",
+							"_lemma": "φυλή",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "21",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "22",
+							"_form": "ἧστινος",
+							"_lemma": "ὅστις",
+							"_postag": "p-s---fg-",
+							"_relation": "PNOM",
+							"_head": "23"
+						},
+						{
+							"_id": "23",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "24"
+						},
+						{
+							"_id": "24",
+							"_form": "σκήπτοιτο",
+							"_lemma": "σκήπτω",
+							"_postag": "v3spoe---",
+							"_relation": "ATR",
+							"_head": "20"
+						},
+						{
+							"_id": "25",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "4",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "2"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐπειδὴ",
+							"_lemma": "ἐπεί",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "32"
+						},
+						{
+							"_id": "2",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "32"
+						},
+						{
+							"_id": "3",
+							"_form": "ἀπεκρίνατο",
+							"_lemma": "ἀποκρίνω",
+							"_postag": "v3saim---",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "4",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "3"
+						},
+						{
+							"_id": "5",
+							"_form": "Δεκελειόθεν",
+							"_lemma": "Δεκελειόθεν",
+							"_postag": "d--------",
+							"_relation": "PNOM",
+							"_head": "43"
+						},
+						{
+							"_id": "6",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "7",
+							"_form": "προσκαλεσάμενος",
+							"_lemma": "προσκαλέω",
+							"_postag": "v-sapmmn-",
+							"_relation": "ADV",
+							"_head": "32"
+						},
+						{
+							"_id": "8",
+							"_form": "αὐτὸν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "7"
+						},
+						{
+							"_id": "9",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "14"
+						},
+						{
+							"_id": "10",
+							"_form": "πρὸς",
+							"_lemma": "πρός",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "7"
+						},
+						{
+							"_id": "11",
+							"_form": "τοὺς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---ma-",
+							"_relation": "ATR",
+							"_head": "14"
+						},
+						{
+							"_id": "12",
+							"_form": "τῇ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fd-",
+							"_relation": "ATR",
+							"_head": "13"
+						},
+						{
+							"_id": "13",
+							"_form": "Ἱπποθωντίδι",
+							"_lemma": "Ἱπποθωντίς",
+							"_postag": "n-s---fd-",
+							"_relation": "ADV",
+							"_head": "14"
+						},
+						{
+							"_id": "14",
+							"_form": "δικάζοντας",
+							"_lemma": "δικάζω",
+							"_postag": "v-pppama-",
+							"_relation": "OBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "15",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "16",
+							"_form": "ἐλθὼν",
+							"_lemma": "ἔρχομαι",
+							"_postag": "v-sapamn-",
+							"_relation": "ADV",
+							"_head": "32"
+						},
+						{
+							"_id": "17",
+							"_form": "ἐπὶ",
+							"_lemma": "ἐπί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "16"
+						},
+						{
+							"_id": "18",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "19"
+						},
+						{
+							"_id": "19",
+							"_form": "κουρεῖον",
+							"_lemma": "κουρεῖον",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "17"
+						},
+						{
+							"_id": "20",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "19"
+						},
+						{
+							"_id": "21",
+							"_form": "παρὰ",
+							"_lemma": "παρά",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "19"
+						},
+						{
+							"_id": "22",
+							"_form": "τοὺς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---ma-",
+							"_relation": "ATR",
+							"_head": "23"
+						},
+						{
+							"_id": "23",
+							"_form": "Ἑρμᾶς",
+							"_lemma": "Ἑρμᾶς",
+							"_postag": "n-p---ma-",
+							"_relation": "ATR",
+							"_head": "21"
+						},
+						{
+							"_id": "24",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "25",
+							"_form": "οἷ",
+							"_lemma": "οἷ",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "27"
+						},
+						{
+							"_id": "26",
+							"_form": "Δεκελειεῖς",
+							"_lemma": "Δεκελειεύς",
+							"_postag": "n-p---mn-",
+							"_relation": "SBJ",
+							"_head": "27"
+						},
+						{
+							"_id": "27",
+							"_form": "προσφοιτῶσιν",
+							"_lemma": "προσφοιτάω",
+							"_postag": "v3ppia---",
+							"_relation": "ATR",
+							"_head": "23"
+						},
+						{
+							"_id": "28",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "29",
+							"_form": "ἠρώτων",
+							"_lemma": "ἐρωτάω",
+							"_postag": "v1siia---",
+							"_relation": "PRED_CO",
+							"_head": "32"
+						},
+						{
+							"_id": "30",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "31",
+							"_form": "οὕς",
+							"_lemma": "ὅς",
+							"_postag": "p-p---ma-",
+							"_relation": "OBJ",
+							"_head": "33"
+						},
+						{
+							"_id": "32",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "0"
+						},
+						{
+							"_id": "33",
+							"_form": "ἐξευρίσκοιμι",
+							"_lemma": "ἐξευρίσκω",
+							"_postag": "v1spoa---",
+							"_relation": "OBJ",
+							"_head": "35"
+						},
+						{
+							"_id": "34",
+							"_form": "Δεκελειέων",
+							"_lemma": "Δεκέλεια",
+							"_postag": "n-p---fg-",
+							"_relation": "ATR",
+							"_head": "31"
+						},
+						{
+							"_id": "35",
+							"_form": "ἐπυνθανόμην",
+							"_lemma": "πυνθάνομαι",
+							"_postag": "v1siie---",
+							"_relation": "PRED_CO",
+							"_head": "32"
+						},
+						{
+							"_id": "36",
+							"_form": "εἴ",
+							"_lemma": "εἰ",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "35"
+						},
+						{
+							"_id": "37",
+							"_form": "τινα",
+							"_lemma": "τις",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "41"
+						},
+						{
+							"_id": "38",
+							"_form": "γιγνώσκοιεν",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v3ppoa---",
+							"_relation": "OBJ",
+							"_head": "36"
+						},
+						{
+							"_id": "39",
+							"_form": "Δεκελειόθεν",
+							"_lemma": "Δεκελειόθεν",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "40"
+						},
+						{
+							"_id": "40",
+							"_form": "δημοτευόμενον",
+							"_lemma": "δημοτεύομαι",
+							"_postag": "v-sppema-",
+							"_relation": "ATR",
+							"_head": "41"
+						},
+						{
+							"_id": "41",
+							"_form": "Παγκλέωνα",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "38"
+						},
+						{
+							"_id": "42",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						},
+						{
+							"_id": "43",
+							"_insertion_id": "0042e",
+							"_artificial": "elliptic",
+							"_relation": "OBJ",
+							"_form": "[0]",
+							"_head": "4"
+						}
+					],
+					"_id": "5",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "2"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐπειδὴ",
+							"_lemma": "ἐπεί",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "22"
+						},
+						{
+							"_id": "2",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "22"
+						},
+						{
+							"_id": "3",
+							"_form": "οὐδεὶς",
+							"_lemma": "οὐδείς",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "4"
+						},
+						{
+							"_id": "4",
+							"_form": "ἔφασκεν",
+							"_lemma": "φάσκω",
+							"_postag": "v3siia---",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "5",
+							"_form": "γιγνώσκειν",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "4"
+						},
+						{
+							"_id": "6",
+							"_form": "αὐτόν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "5"
+						},
+						{
+							"_id": "7",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "πυθόμενος",
+							"_lemma": "πυνθάνομαι",
+							"_postag": "v-sapmmn-",
+							"_relation": "ADV",
+							"_head": "22"
+						},
+						{
+							"_id": "9",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "8"
+						},
+						{
+							"_id": "10",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "11"
+						},
+						{
+							"_id": "11",
+							"_form": "ἑτέρας",
+							"_lemma": "ἕτερος",
+							"_postag": "a-p---fa-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "δίκας",
+							"_lemma": "δίκη",
+							"_postag": "n-p---fa-",
+							"_relation": "OBJ",
+							"_head": "15"
+						},
+						{
+							"_id": "13",
+							"_form": "τὰς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---fa-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "14",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "17"
+						},
+						{
+							"_id": "15",
+							"_form": "φεύγοι",
+							"_lemma": "φεύγω",
+							"_postag": "v3spoa---",
+							"_relation": "OBJ_CO",
+							"_head": "17"
+						},
+						{
+							"_id": "16",
+							"_form": "τὰς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---fa-",
+							"_relation": "OBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "17",
+							"_form": "δ̓",
+							"_lemma": "δέ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "9"
+						},
+						{
+							"_id": "18",
+							"_form": "ὠφλήκοι",
+							"_lemma": "ὀφλισκάνω",
+							"_postag": "v3sroa---",
+							"_relation": "OBJ_CO",
+							"_head": "17"
+						},
+						{
+							"_id": "19",
+							"_form": "παρὰ",
+							"_lemma": "παρά",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "17"
+						},
+						{
+							"_id": "20",
+							"_form": "τῷ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---md-",
+							"_relation": "ATR",
+							"_head": "21"
+						},
+						{
+							"_id": "21",
+							"_form": "πολεμάρχῳ",
+							"_lemma": "πολέμαρχος",
+							"_postag": "n-s---md-",
+							"_relation": "ADV",
+							"_head": "19"
+						},
+						{
+							"_id": "22",
+							"_form": "ἔλαχον",
+							"_lemma": "λαγχάνω",
+							"_postag": "v1saia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "23",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "24"
+						},
+						{
+							"_id": "24",
+							"_form": "ἐγώ",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---mn-",
+							"_relation": "SBJ",
+							"_head": "22"
+						},
+						{
+							"_id": "25",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "6",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "3"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "πρῶτον",
+							"_lemma": "πρῶτος",
+							"_postag": "a-s---na-",
+							"_relation": "ADV",
+							"_head": "9"
+						},
+						{
+							"_id": "2",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "12"
+						},
+						{
+							"_id": "3",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "4",
+							"_form": "ὑμῖν",
+							"_lemma": "σύ",
+							"_postag": "p-p---md-",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "5",
+							"_form": "Δεκελειέων",
+							"_lemma": "Δεκελειεύς",
+							"_postag": "n-p---mg-",
+							"_relation": "ATR_CO",
+							"_head": "12"
+						},
+						{
+							"_id": "6",
+							"_form": "οὓς",
+							"_lemma": "ὅς",
+							"_postag": "p-p---ma-",
+							"_relation": "OBJ",
+							"_head": "7"
+						},
+						{
+							"_id": "7",
+							"_form": "ἠρόμην",
+							"_lemma": "ἔρομαι",
+							"_postag": "v1saim---",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "μάρτυρας",
+							"_lemma": "μάρτυς",
+							"_postag": "n-p---ma-",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "παρέξομαι",
+							"_lemma": "παρέχω",
+							"_postag": "v1sfim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "11",
+							"_form": "ἔπειτα",
+							"_lemma": "ἔπειτα",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "8"
+						},
+						{
+							"_id": "13",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "15"
+						},
+						{
+							"_id": "14",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "15"
+						},
+						{
+							"_id": "15",
+							"_form": "ἄλλων",
+							"_lemma": "ἄλλος",
+							"_postag": "p-p---mg-",
+							"_relation": "ATR_CO",
+							"_head": "12"
+						},
+						{
+							"_id": "16",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "15"
+						},
+						{
+							"_id": "17",
+							"_form": "λαχόντων",
+							"_lemma": "λαγχάνω",
+							"_postag": "v-papamg-",
+							"_relation": "ATR_CO",
+							"_head": "24"
+						},
+						{
+							"_id": "18",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "24"
+						},
+						{
+							"_id": "19",
+							"_form": "δίκας",
+							"_lemma": "δίκη",
+							"_postag": "n-p---fa-",
+							"_relation": "OBJ",
+							"_head": "17"
+						},
+						{
+							"_id": "20",
+							"_form": "αὐτῷ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---md-",
+							"_relation": "OBJ",
+							"_head": "17"
+						},
+						{
+							"_id": "21",
+							"_form": "πρὸς",
+							"_lemma": "πρός",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "17"
+						},
+						{
+							"_id": "22",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "23"
+						},
+						{
+							"_id": "23",
+							"_form": "πολέμαρχον",
+							"_lemma": "πολέμαρχος",
+							"_postag": "n-s---ma-",
+							"_relation": "ADV",
+							"_head": "21"
+						},
+						{
+							"_id": "24",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "15"
+						},
+						{
+							"_id": "25",
+							"_form": "καταδικασαμένων",
+							"_lemma": "καταδικάζω",
+							"_postag": "v-papmmg-",
+							"_relation": "ATR_CO",
+							"_head": "24"
+						},
+						{
+							"_id": "26",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "27",
+							"_form": "ὅσοι",
+							"_lemma": "ὅσος",
+							"_postag": "a-p---mn-",
+							"_relation": "SBJ",
+							"_head": "28"
+						},
+						{
+							"_id": "28",
+							"_form": "τυγχάνουσι",
+							"_lemma": "τυγχάνω",
+							"_postag": "v3ppia---",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "29",
+							"_form": "παρόντες",
+							"_lemma": "πάρειμι",
+							"_postag": "v-pppamn-",
+							"_relation": "PNOM",
+							"_head": "28"
+						},
+						{
+							"_id": "30",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "7",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "4"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καί",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "3",
+							"_form": "ἐπίλαβε",
+							"_lemma": "ἐπιλαμβάνω",
+							"_postag": "v2sama---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ὕδωρ",
+							"_lemma": "ὕδωρ",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "8",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "4"
+				},
+				{
+					"word": {
+						"_id": "1",
+						"_form": "Μάρτυρες",
+						"_lemma": "μάρτυς",
+						"_postag": "n-p---mn-",
+						"_relation": "ExD",
+						"_head": "0"
+					},
+					"_id": "9",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "4"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐκ",
+							"_lemma": "ἐκ",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "4"
+						},
+						{
+							"_id": "2",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "11"
+						},
+						{
+							"_id": "3",
+							"_form": "τούτων",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---ng-",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "4",
+							"_form": "πεισθεὶς",
+							"_lemma": "πείθω",
+							"_postag": "v-sappmn-",
+							"_relation": "ADV",
+							"_head": "11"
+						},
+						{
+							"_id": "5",
+							"_form": "πρὸς",
+							"_lemma": "πρός",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "11"
+						},
+						{
+							"_id": "6",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "7"
+						},
+						{
+							"_id": "7",
+							"_form": "πολέμαρχον",
+							"_lemma": "πολέμαρχος",
+							"_postag": "n-s---ma-",
+							"_relation": "ADV",
+							"_head": "5"
+						},
+						{
+							"_id": "8",
+							"_form": "αὐτῷ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---md-",
+							"_relation": "OBJ",
+							"_head": "11"
+						},
+						{
+							"_id": "9",
+							"_form": "τὴν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "10",
+							"_form": "δίκην",
+							"_lemma": "δίκη",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "11"
+						},
+						{
+							"_id": "11",
+							"_form": "ἔλαχον",
+							"_lemma": "λαγχάνω",
+							"_postag": "v1saia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "12",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "10",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "5"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐπειδὴ",
+							"_lemma": "ἐπεί",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "38"
+						},
+						{
+							"_id": "2",
+							"_form": "δέ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "38"
+						},
+						{
+							"_id": "3",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "OBJ",
+							"_head": "5"
+						},
+						{
+							"_id": "4",
+							"_form": "αὐτὴν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---fa-",
+							"_relation": "SBJ",
+							"_head": "8"
+						},
+						{
+							"_id": "5",
+							"_form": "ἀντεγράψατο",
+							"_lemma": "ἀντιγράφω",
+							"_postag": "v3saim---",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "6",
+							"_form": "μὴ",
+							"_lemma": "μή",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "7"
+						},
+						{
+							"_id": "7",
+							"_form": "εἰσαγώγιμον",
+							"_lemma": "εἰσαγώγιμος",
+							"_postag": "a-s---fa-",
+							"_relation": "PNOM",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "5"
+						},
+						{
+							"_id": "9",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": "περὶ",
+							"_lemma": "περί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "12"
+						},
+						{
+							"_id": "11",
+							"_form": "πολλοῦ",
+							"_lemma": "πολύς",
+							"_postag": "a-s---ng-",
+							"_relation": "ADV",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": "ποιούμενος",
+							"_lemma": "ποιόω",
+							"_postag": "v-sppemn-",
+							"_relation": "ADV",
+							"_head": "38"
+						},
+						{
+							"_id": "13",
+							"_form": "μηδενὶ",
+							"_lemma": "μηδείς",
+							"_postag": "a-s---fd-",
+							"_relation": "ATR",
+							"_head": "14"
+						},
+						{
+							"_id": "14",
+							"_form": "δόξαι",
+							"_lemma": "δόξα",
+							"_postag": "n-s---fd-",
+							"_relation": "OBJ",
+							"_head": "15"
+						},
+						{
+							"_id": "15",
+							"_form": "ὑβρίζειν",
+							"_lemma": "ὑβρίζω",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "16"
+						},
+						{
+							"_id": "16",
+							"_form": "βούλεσθαι",
+							"_lemma": "βούλομαι",
+							"_postag": "v--pne---",
+							"_relation": "OBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "17",
+							"_form": "μᾶλλον",
+							"_lemma": "μᾶλλον",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "15"
+						},
+						{
+							"_id": "18",
+							"_form": "ἢ",
+							"_lemma": "ἤ",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "17"
+						},
+						{
+							"_id": "19",
+							"_form": "δίκην",
+							"_lemma": "δίκη",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "20"
+						},
+						{
+							"_id": "20",
+							"_form": "λαβεῖν",
+							"_lemma": "λαμβάνω",
+							"_postag": "v--ana---",
+							"_relation": "ADV",
+							"_head": "18"
+						},
+						{
+							"_id": "21",
+							"_form": "ὧν",
+							"_lemma": "ὅς",
+							"_postag": "p-p---ng-",
+							"_relation": "OBJ",
+							"_head": "22"
+						},
+						{
+							"_id": "22",
+							"_form": "ἠδικήθην",
+							"_lemma": "ἀδικέω",
+							"_postag": "v1saip---",
+							"_relation": "ATR",
+							"_head": "19"
+						},
+						{
+							"_id": "23",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "24",
+							"_form": "πρῶτον",
+							"_lemma": "πρῶτος",
+							"_postag": "a-s---na-",
+							"_relation": "ADV",
+							"_head": "38"
+						},
+						{
+							"_id": "25",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "38"
+						},
+						{
+							"_id": "26",
+							"_form": "Εὐθύκριτον",
+							"_lemma": "Εὐθύκριτος",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "38"
+						},
+						{
+							"_id": "27",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "28",
+							"_form": "ὃν",
+							"_lemma": "ὅς",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "32"
+						},
+						{
+							"_id": "29",
+							"_form": "πρεσβύτατόν",
+							"_lemma": "πρέσβυς",
+							"_postag": "a-s---mas",
+							"_relation": "OCOMP",
+							"_head": "32"
+						},
+						{
+							"_id": "30",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "33"
+						},
+						{
+							"_id": "31",
+							"_form": "Πλαταιέων",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-p---mg-",
+							"_relation": "ATR",
+							"_head": "29"
+						},
+						{
+							"_id": "32",
+							"_form": "ἐγίγνωσκον",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v1siia---",
+							"_relation": "ATR_CO",
+							"_head": "33"
+						},
+						{
+							"_id": "33",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "26"
+						},
+						{
+							"_id": "34",
+							"_form": "μάλιστα",
+							"_lemma": "μάλιστα",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "35"
+						},
+						{
+							"_id": "35",
+							"_form": "ὠόμην",
+							"_lemma": "οἴομαι",
+							"_postag": "v1siie---",
+							"_relation": "ATR_CO",
+							"_head": "33"
+						},
+						{
+							"_id": "36",
+							"_form": "εἰδέναι",
+							"_lemma": "οἶδα",
+							"_postag": "v--rna---",
+							"_relation": "OBJ",
+							"_head": "35"
+						},
+						{
+							"_id": "37",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "38",
+							"_form": "ἠρόμην",
+							"_lemma": "ἔρομαι",
+							"_postag": "v1saim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "39",
+							"_form": "εἴ",
+							"_lemma": "εἰ",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "38"
+						},
+						{
+							"_id": "40",
+							"_form": "τινα",
+							"_lemma": "τις",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "44"
+						},
+						{
+							"_id": "41",
+							"_form": "γιγνώσκοι",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v3spoa---",
+							"_relation": "OBJ",
+							"_head": "39"
+						},
+						{
+							"_id": "42",
+							"_form": "Ἱππαρμοδώρου",
+							"_lemma": "Ἱππαρμόδωρος",
+							"_postag": "n-s---mg-",
+							"_relation": "ATR",
+							"_head": "43"
+						},
+						{
+							"_id": "43",
+							"_form": "ὑὸν",
+							"_lemma": "υἱός",
+							"_postag": "n-s---ma-",
+							"_relation": "ATR",
+							"_head": "44"
+						},
+						{
+							"_id": "44",
+							"_form": "Παγκλέωνα",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "41"
+						},
+						{
+							"_id": "45",
+							"_form": "Πλαταιέα",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---ma-",
+							"_relation": "ATR",
+							"_head": "44"
+						},
+						{
+							"_id": "46",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "11",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "5"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἔπειτα",
+							"_lemma": "ἔπειτα",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "26"
+						},
+						{
+							"_id": "2",
+							"_form": "δέ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "26"
+						},
+						{
+							"_id": "3",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "ἐπειδὴ",
+							"_lemma": "ἐπεί",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "26"
+						},
+						{
+							"_id": "5",
+							"_form": "ἐκεῖνος",
+							"_lemma": "ἐκεῖνος",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "ἀπεκρίνατό",
+							"_lemma": "ἀποκρίνω",
+							"_postag": "v3saim---",
+							"_relation": "ADV",
+							"_head": "4"
+						},
+						{
+							"_id": "7",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "OBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "8",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "6"
+						},
+						{
+							"_id": "9",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "10",
+							"_form": "Ἱππαρμόδωρον",
+							"_lemma": "Ἱππαρμόδωρος",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "11",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "15"
+						},
+						{
+							"_id": "12",
+							"_form": "γιγνώσκοι",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v3spoa---",
+							"_relation": "OBJ_CO",
+							"_head": "15"
+						},
+						{
+							"_id": "13",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "14",
+							"_form": "ὑὸν",
+							"_lemma": "υἱός",
+							"_postag": "n-s---ma-",
+							"_relation": "SBJ",
+							"_head": "24"
+						},
+						{
+							"_id": "15",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "8"
+						},
+						{
+							"_id": "16",
+							"_form": "ἐκείνῳ",
+							"_lemma": "ἐκεῖνος",
+							"_postag": "p-s---md-",
+							"_relation": "PNOM",
+							"_head": "24"
+						},
+						{
+							"_id": "17",
+							"_form": "οὐδένα",
+							"_lemma": "οὐδείς",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "14"
+						},
+						{
+							"_id": "18",
+							"_form": "οὔτε",
+							"_lemma": "οὐτε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "20"
+						},
+						{
+							"_id": "19",
+							"_form": "Παγκλέωνα",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---ma-",
+							"_relation": "ATR_CO",
+							"_head": "20"
+						},
+						{
+							"_id": "20",
+							"_form": "οὔτε",
+							"_lemma": "οὐτε",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "14"
+						},
+						{
+							"_id": "21",
+							"_form": "ἄλλον",
+							"_lemma": "ἄλλος",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "22"
+						},
+						{
+							"_id": "22",
+							"_form": "οὐδένα",
+							"_lemma": "οὐδείς",
+							"_postag": "p-s---ma-",
+							"_relation": "ATR_CO",
+							"_head": "20"
+						},
+						{
+							"_id": "23",
+							"_form": "εἰδείη",
+							"_lemma": "οἶδα",
+							"_postag": "v3sroa---",
+							"_relation": "OBJ_CO",
+							"_head": "15"
+						},
+						{
+							"_id": "24",
+							"_form": "ὄντα",
+							"_lemma": "εἰμί",
+							"_postag": "v-sppama-",
+							"_relation": "OBJ",
+							"_head": "23"
+						},
+						{
+							"_id": "25",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "26",
+							"_form": "ἠρώτων",
+							"_lemma": "ἐρωτάω",
+							"_postag": "v1siia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "27",
+							"_form": "δὴ",
+							"_lemma": "δή",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "26"
+						},
+						{
+							"_id": "28",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "30"
+						},
+						{
+							"_id": "29",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "30"
+						},
+						{
+							"_id": "30",
+							"_form": "ἄλλων",
+							"_lemma": "ἄλλος",
+							"_postag": "p-p---mg-",
+							"_relation": "OBJ",
+							"_head": "26"
+						},
+						{
+							"_id": "31",
+							"_form": "ὅσους",
+							"_lemma": "ὅσος",
+							"_postag": "a-p---ma-",
+							"_relation": "SBJ",
+							"_head": "34"
+						},
+						{
+							"_id": "32",
+							"_form": "ᾔδη",
+							"_lemma": "οἶδα",
+							"_postag": "v1slia---",
+							"_relation": "ATR",
+							"_head": "30"
+						},
+						{
+							"_id": "33",
+							"_form": "Πλαταιέας",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-p---ma-",
+							"_relation": "PNOM",
+							"_head": "34"
+						},
+						{
+							"_id": "34",
+							"_form": "ὄντας",
+							"_lemma": "εἰμί",
+							"_postag": "v-pppama-",
+							"_relation": "OBJ",
+							"_head": "32"
+						},
+						{
+							"_id": "35",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "12",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "6"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "πάντες",
+							"_lemma": "πᾶς",
+							"_postag": "a-p---mn-",
+							"_relation": "SBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "2",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "10"
+						},
+						{
+							"_id": "3",
+							"_form": "ἀγνοοῦντες",
+							"_lemma": "ἀγνοέω",
+							"_postag": "v-pppamn-",
+							"_relation": "ADV",
+							"_head": "10"
+						},
+						{
+							"_id": "4",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ὄνομα",
+							"_lemma": "ὄνομα",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": "αὐτοῦ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---mg-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "7",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "ἀκριβέστατα",
+							"_lemma": "ἀκριβής",
+							"_postag": "a-p---nas",
+							"_relation": "OBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "9",
+							"_form": "ἂν",
+							"_lemma": "ἄν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "12"
+						},
+						{
+							"_id": "10",
+							"_form": "ἔφασάν",
+							"_lemma": "φημί",
+							"_postag": "v3paia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "11",
+							"_form": "με",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---ma-",
+							"_relation": "SBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "πυθέσθαι",
+							"_lemma": "πυνθάνομαι",
+							"_postag": "v--anm---",
+							"_relation": "OBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "13",
+							"_form": "ἐλθόντα",
+							"_lemma": "ἔρχομαι",
+							"_postag": "v-sapama-",
+							"_relation": "ADV",
+							"_head": "12"
+						},
+						{
+							"_id": "14",
+							"_form": "εἰς",
+							"_lemma": "εἰς",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "13"
+						},
+						{
+							"_id": "15",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "17"
+						},
+						{
+							"_id": "16",
+							"_form": "χλωρὸν",
+							"_lemma": "χλωρός",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "τυρὸν",
+							"_lemma": "τυρός",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "14"
+						},
+						{
+							"_id": "18",
+							"_form": "τῇ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fd-",
+							"_relation": "ATR",
+							"_head": "19"
+						},
+						{
+							"_id": "19",
+							"_form": "ἕνῃ",
+							"_lemma": "ἕνος",
+							"_postag": "a-s---fd-",
+							"_relation": "ADV_CO",
+							"_head": "20"
+						},
+						{
+							"_id": "20",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "13"
+						},
+						{
+							"_id": "21",
+							"_form": "νέᾳ",
+							"_lemma": "νέος",
+							"_postag": "a-s---fd-",
+							"_relation": "ADV_CO",
+							"_head": "20"
+						},
+						{
+							"_id": "22",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "13",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "6"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ταύτῃ",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---fd-",
+							"_relation": "ATR",
+							"_head": "4"
+						},
+						{
+							"_id": "2",
+							"_form": "γὰρ",
+							"_lemma": "γάρ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "3",
+							"_form": "τῇ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fd-",
+							"_relation": "ATR",
+							"_head": "4"
+						},
+						{
+							"_id": "4",
+							"_form": "ἡμέρᾳ",
+							"_lemma": "ἡμέρα",
+							"_postag": "n-s---fd-",
+							"_relation": "ADV",
+							"_head": "9"
+						},
+						{
+							"_id": "5",
+							"_form": "τοῦ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---mg-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "μηνὸς",
+							"_lemma": "μείς",
+							"_postag": "n-s---mg-",
+							"_relation": "ATR",
+							"_head": "4"
+						},
+						{
+							"_id": "7",
+							"_form": "ἑκάστου",
+							"_lemma": "ἕκαστος",
+							"_postag": "a-s---mg-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "8",
+							"_form": "ἐκεῖσε",
+							"_lemma": "ἐκεῖσε",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "συλλέγεσθαι",
+							"_lemma": "συλλέγω",
+							"_postag": "v--pne---",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "10",
+							"_form": "τοὺς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---ma-",
+							"_relation": "ATR",
+							"_head": "11"
+						},
+						{
+							"_id": "11",
+							"_form": "Πλαταιέας",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-p---ma-",
+							"_relation": "SBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "12",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						},
+						{
+							"_id": "13",
+							"_insertion_id": "0012e",
+							"_artificial": "elliptic",
+							"_relation": "PRED",
+							"_form": "[0]",
+							"_head": "0"
+						}
+					],
+					"_id": "14",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "6"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐλθὼν",
+							"_lemma": "ἔρχομαι",
+							"_postag": "v-sapamn-",
+							"_relation": "ADV",
+							"_head": "9"
+						},
+						{
+							"_id": "2",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "3",
+							"_form": "εἰς",
+							"_lemma": "εἰς",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "1"
+						},
+						{
+							"_id": "4",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "τυρὸν",
+							"_lemma": "τυρός",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": "ταύτῃ",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---fd-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "7",
+							"_form": "τῇ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fd-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "ἡμέρᾳ",
+							"_lemma": "ἡμέρα",
+							"_postag": "n-s---fd-",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "9",
+							"_form": "ἐπυνθανόμην",
+							"_lemma": "πυνθάνομαι",
+							"_postag": "v1siie---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": "αὐτῶν",
+							"_lemma": "αὐτός",
+							"_postag": "p-p---mg-",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "11",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "12",
+							"_form": "εἴ",
+							"_lemma": "εἰ",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "9"
+						},
+						{
+							"_id": "13",
+							"_form": "τινα",
+							"_lemma": "τις",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "15"
+						},
+						{
+							"_id": "14",
+							"_form": "γιγνώσκοιεν",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v3ppoa---",
+							"_relation": "OBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "15",
+							"_form": "Παγκλέωνα",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "14"
+						},
+						{
+							"_id": "16",
+							"_form": "πολίτην",
+							"_lemma": "πολίτης",
+							"_postag": "n-s---ma-",
+							"_relation": "ATR",
+							"_head": "15"
+						},
+						{
+							"_id": "17",
+							"_form": "σφέτερον",
+							"_lemma": "σφέτερος",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "16"
+						},
+						{
+							"_id": "18",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "15",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "7"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "10"
+						},
+						{
+							"_id": "2",
+							"_form": "οἱ",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mn-",
+							"_relation": "ATR",
+							"_head": "4"
+						},
+						{
+							"_id": "3",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "10"
+						},
+						{
+							"_id": "4",
+							"_form": "ἄλλοι",
+							"_lemma": "ἄλλος",
+							"_postag": "p-p---mn-",
+							"_relation": "SBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "5",
+							"_form": "οὐκ",
+							"_lemma": "οὐ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "7"
+						},
+						{
+							"_id": "6",
+							"_form": "ἔφασαν",
+							"_lemma": "φημί",
+							"_postag": "v3paia---",
+							"_relation": "PRED_CO",
+							"_head": "10"
+						},
+						{
+							"_id": "7",
+							"_form": "γιγνώσκειν",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "8",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "9",
+							"_form": "εἷς",
+							"_lemma": "εἷς",
+							"_postag": "n-s---mn-",
+							"_relation": "SBJ",
+							"_head": "25"
+						},
+						{
+							"_id": "10",
+							"_form": "δέ",
+							"_lemma": "δέ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "0"
+						},
+						{
+							"_id": "11",
+							"_form": "τις",
+							"_lemma": "τις",
+							"_postag": "a-s---mn-",
+							"_relation": "ATR",
+							"_head": "9"
+						},
+						{
+							"_id": "12",
+							"_form": "εἶπεν",
+							"_lemma": "εἶπον",
+							"_postag": "v3saia---",
+							"_relation": "PRED_CO",
+							"_head": "25"
+						},
+						{
+							"_id": "13",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "12"
+						},
+						{
+							"_id": "14",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "16"
+						},
+						{
+							"_id": "15",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "25"
+						},
+						{
+							"_id": "16",
+							"_form": "πολιτῶν",
+							"_lemma": "πολίτης",
+							"_postag": "n-p---mg-",
+							"_relation": "ATR",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "οὐδενὶ",
+							"_lemma": "οὐδείς",
+							"_postag": "p-s---md-",
+							"_relation": "PNOM",
+							"_head": "20"
+						},
+						{
+							"_id": "18",
+							"_form": "εἰδείη",
+							"_lemma": "οἶδα",
+							"_postag": "v3sroa---",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "19",
+							"_form": "τοῦτο",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---na-",
+							"_relation": "ATR",
+							"_head": "22"
+						},
+						{
+							"_id": "20",
+							"_form": "ὂν",
+							"_lemma": "εἰμί",
+							"_postag": "v-sppana-",
+							"_relation": "OBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "21",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "22"
+						},
+						{
+							"_id": "22",
+							"_form": "ὄνομα",
+							"_lemma": "ὄνομα",
+							"_postag": "n-s---na-",
+							"_relation": "SBJ",
+							"_head": "20"
+						},
+						{
+							"_id": "23",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "24",
+							"_form": "δοῦλον",
+							"_lemma": "δοῦλος",
+							"_postag": "n-s---ma-",
+							"_relation": "PNOM",
+							"_head": "29"
+						},
+						{
+							"_id": "25",
+							"_form": "μέντοι",
+							"_lemma": "μέντοι",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "10"
+						},
+						{
+							"_id": "26",
+							"_form": "ἔφη",
+							"_lemma": "φημί",
+							"_postag": "v3siia---",
+							"_relation": "PRED_CO",
+							"_head": "25"
+						},
+						{
+							"_id": "27",
+							"_form": "ἑαυτοῦ",
+							"_lemma": "ἑαυτοῦ",
+							"_postag": "p-s---mg-",
+							"_relation": "OBJ",
+							"_head": "28"
+						},
+						{
+							"_id": "28",
+							"_form": "ἀφεστῶτα",
+							"_lemma": "ἀφεστήξω",
+							"_postag": "v-srpama-",
+							"_relation": "ATR",
+							"_head": "24"
+						},
+						{
+							"_id": "29",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "26"
+						},
+						{
+							"_id": "30",
+							"_form": "Παγκλέωνα",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---ma-",
+							"_relation": "SBJ",
+							"_head": "29"
+						},
+						{
+							"_id": "31",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "32",
+							"_form": "τήν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "34"
+						},
+						{
+							"_id": "33",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "38"
+						},
+						{
+							"_id": "34",
+							"_form": "ἡλικίαν",
+							"_lemma": "ἡλικία",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ_CO",
+							"_head": "38"
+						},
+						{
+							"_id": "35",
+							"_form": "λέγων",
+							"_lemma": "λέγω",
+							"_postag": "v-sppamn-",
+							"_relation": "ADV",
+							"_head": "26"
+						},
+						{
+							"_id": "36",
+							"_form": "τὴν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "37"
+						},
+						{
+							"_id": "37",
+							"_form": "τούτου",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---mg-",
+							"_relation": "ATR",
+							"_head": "34"
+						},
+						{
+							"_id": "38",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "35"
+						},
+						{
+							"_id": "39",
+							"_form": "τὴν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "40"
+						},
+						{
+							"_id": "40",
+							"_form": "τέχνην",
+							"_lemma": "τέχνη",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ_CO",
+							"_head": "38"
+						},
+						{
+							"_id": "41",
+							"_form": "ᾗ",
+							"_lemma": "ὅς",
+							"_postag": "p-s---fd-",
+							"_relation": "OBJ",
+							"_head": "43"
+						},
+						{
+							"_id": "42",
+							"_form": "οὗτος",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "43"
+						},
+						{
+							"_id": "43",
+							"_form": "χρῆται",
+							"_lemma": "χράομαι",
+							"_postag": "v3spie---",
+							"_relation": "ATR",
+							"_head": "40"
+						},
+						{
+							"_id": "44",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "16",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "7"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ταῦτ̓",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---nn-",
+							"_relation": "SBJ",
+							"_head": "5"
+						},
+						{
+							"_id": "2",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "31"
+						},
+						{
+							"_id": "3",
+							"_form": "ὡς",
+							"_lemma": "ὡς",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "31"
+						},
+						{
+							"_id": "4",
+							"_form": "ἀληθῆ",
+							"_lemma": "ἀληθής",
+							"_postag": "a-p---nn-",
+							"_relation": "PNOM",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ἐστι",
+							"_lemma": "εἰμί",
+							"_postag": "v3spia---",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "7",
+							"_form": "τόν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "9"
+						},
+						{
+							"_id": "8",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "22"
+						},
+						{
+							"_id": "9",
+							"_form": "Εὐθύκριτον",
+							"_lemma": "Εὐθύκριτος",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ_AP_CO",
+							"_head": "22"
+						},
+						{
+							"_id": "10",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "11",
+							"_form": "ὃν",
+							"_lemma": "ὅς",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "12",
+							"_form": "πρῶτον",
+							"_lemma": "πρῶτος",
+							"_postag": "a-s---na-",
+							"_relation": "ADV",
+							"_head": "13"
+						},
+						{
+							"_id": "13",
+							"_form": "ἠρόμην",
+							"_lemma": "ἔρομαι",
+							"_postag": "v1saim---",
+							"_relation": "ATR",
+							"_head": "9"
+						},
+						{
+							"_id": "14",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "15",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "22"
+						},
+						{
+							"_id": "16",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "18"
+						},
+						{
+							"_id": "17",
+							"_form": "ἄλλων",
+							"_lemma": "ἄλλος",
+							"_postag": "a-p---mg-",
+							"_relation": "ATR",
+							"_head": "18"
+						},
+						{
+							"_id": "18",
+							"_form": "Πλαταιέων",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-p---mg-",
+							"_relation": "ATR",
+							"_head": "33"
+						},
+						{
+							"_id": "19",
+							"_form": "ὅσοις",
+							"_lemma": "ὅσος",
+							"_postag": "a-p---md-",
+							"_relation": "OBJ",
+							"_head": "20"
+						},
+						{
+							"_id": "20",
+							"_form": "προσῆλθον",
+							"_lemma": "προσέρχομαι",
+							"_postag": "v1saia---",
+							"_relation": "ATR",
+							"_head": "33"
+						},
+						{
+							"_id": "21",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "22",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "29"
+						},
+						{
+							"_id": "23",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "OBJ_AP_CO",
+							"_head": "22"
+						},
+						{
+							"_id": "24",
+							"_form": "ὃς",
+							"_lemma": "ὅς",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "25"
+						},
+						{
+							"_id": "25",
+							"_form": "ἔφη",
+							"_lemma": "φημί",
+							"_postag": "v3siia---",
+							"_relation": "ATR",
+							"_head": "23"
+						},
+						{
+							"_id": "26",
+							"_form": "δεσπότης",
+							"_lemma": "δεσπότης",
+							"_postag": "n-s---mn-",
+							"_relation": "PNOM",
+							"_head": "28"
+						},
+						{
+							"_id": "27",
+							"_form": "τούτου",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---mg-",
+							"_relation": "ATR",
+							"_head": "26"
+						},
+						{
+							"_id": "28",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "25"
+						},
+						{
+							"_id": "29",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "APOS",
+							"_head": "31"
+						},
+						{
+							"_id": "30",
+							"_form": "μάρτυρας",
+							"_lemma": "μάρτυς",
+							"_postag": "n-p---ma-",
+							"_relation": "OBJ_AP",
+							"_head": "29"
+						},
+						{
+							"_id": "31",
+							"_form": "παρέξομαι",
+							"_lemma": "παρέχω",
+							"_postag": "v1sfim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "32",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						},
+						{
+							"_id": "33",
+							"_insertion_id": "0032e",
+							"_artificial": "elliptic",
+							"_relation": "OBJ_AP_CO",
+							"_form": "[0]",
+							"_head": "22"
+						}
+					],
+					"_id": "17",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "8"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καί",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "3",
+							"_form": "ἐπίλαβε",
+							"_lemma": "ἐπιλαμβάνω",
+							"_postag": "v2sama---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ὕδωρ",
+							"_lemma": "ὕδωρ",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "18",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "8"
+				},
+				{
+					"word": {
+						"_id": "1",
+						"_form": "Μάρτυρες",
+						"_lemma": "μάρτυς",
+						"_postag": "n-p---mn-",
+						"_relation": "ExD",
+						"_head": "0"
+					},
+					"_id": "19",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "8"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἡμέραις",
+							"_lemma": "ἡμέρα",
+							"_postag": "n-p---fd-",
+							"_relation": "ADV",
+							"_head": "7"
+						},
+						{
+							"_id": "2",
+							"_form": "τοίνυν",
+							"_lemma": "τοίνυν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "21"
+						},
+						{
+							"_id": "3",
+							"_form": "μετὰ",
+							"_lemma": "μετά",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "21"
+						},
+						{
+							"_id": "4",
+							"_form": "ταῦτα",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---na-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "5",
+							"_form": "οὐ",
+							"_lemma": "οὐ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "πολλαῖς",
+							"_lemma": "πολύς",
+							"_postag": "a-p---fd-",
+							"_relation": "ATR",
+							"_head": "1"
+						},
+						{
+							"_id": "7",
+							"_form": "ὕστερον",
+							"_lemma": "ὕστερος",
+							"_postag": "a-s---na-",
+							"_relation": "ADV",
+							"_head": "21"
+						},
+						{
+							"_id": "8",
+							"_form": "ἰδὼν",
+							"_lemma": "εἶδον",
+							"_postag": "v-sapamn-",
+							"_relation": "ADV",
+							"_head": "21"
+						},
+						{
+							"_id": "9",
+							"_form": "ἀγόμενον",
+							"_lemma": "ἄγω",
+							"_postag": "v-sppema-",
+							"_relation": "OBJ",
+							"_head": "8"
+						},
+						{
+							"_id": "10",
+							"_form": "τουτονὶ",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "11"
+						},
+						{
+							"_id": "11",
+							"_form": "Παγκλέωνα",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---ma-",
+							"_relation": "SBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "12",
+							"_form": "ὑπὸ",
+							"_lemma": "ὑπό",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "9"
+						},
+						{
+							"_id": "13",
+							"_form": "Νικομήδους",
+							"_lemma": "Νικομήδης",
+							"_postag": "n-s---mg-",
+							"_relation": "OBJ",
+							"_head": "12"
+						},
+						{
+							"_id": "14",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "15",
+							"_form": "ὃς",
+							"_lemma": "ὅς",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "16"
+						},
+						{
+							"_id": "16",
+							"_form": "ἐμαρτύρησεν",
+							"_lemma": "μαρτυρέω",
+							"_postag": "v3saia---",
+							"_relation": "ATR",
+							"_head": "13"
+						},
+						{
+							"_id": "17",
+							"_form": "αὐτοῦ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---mg-",
+							"_relation": "ATR",
+							"_head": "18"
+						},
+						{
+							"_id": "18",
+							"_form": "δεσπότης",
+							"_lemma": "δεσπότης",
+							"_postag": "n-s---mn-",
+							"_relation": "PNOM",
+							"_head": "19"
+						},
+						{
+							"_id": "19",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "16"
+						},
+						{
+							"_id": "20",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "21",
+							"_form": "προσῆλθον",
+							"_lemma": "προσέρχομαι",
+							"_postag": "v1saia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "22",
+							"_form": "βουλόμενος",
+							"_lemma": "βούλομαι",
+							"_postag": "v-sppemn-",
+							"_relation": "ADV",
+							"_head": "21"
+						},
+						{
+							"_id": "23",
+							"_form": "εἰδέναι",
+							"_lemma": "οἶδα",
+							"_postag": "v--rna---",
+							"_relation": "OBJ",
+							"_head": "22"
+						},
+						{
+							"_id": "24",
+							"_form": "ὁποῖόν",
+							"_lemma": "ὁποῖος",
+							"_postag": "a-s---nn-",
+							"_relation": "ATR",
+							"_head": "25"
+						},
+						{
+							"_id": "25",
+							"_form": "τι",
+							"_lemma": "τις",
+							"_postag": "p-s---nn-",
+							"_relation": "SBJ",
+							"_head": "28"
+						},
+						{
+							"_id": "26",
+							"_form": "περὶ",
+							"_lemma": "περί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "28"
+						},
+						{
+							"_id": "27",
+							"_form": "αὐτοῦ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---mg-",
+							"_relation": "ADV",
+							"_head": "26"
+						},
+						{
+							"_id": "28",
+							"_form": "πραχθήσοιτο",
+							"_lemma": "πράσσω",
+							"_postag": "v3sfop---",
+							"_relation": "OBJ",
+							"_head": "23"
+						},
+						{
+							"_id": "29",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "20",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "9"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "τότε",
+							"_lemma": "τότε",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "8"
+						},
+						{
+							"_id": "2",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "8"
+						},
+						{
+							"_id": "3",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "8"
+						},
+						{
+							"_id": "4",
+							"_form": "ἐπειδὴ",
+							"_lemma": "ἐπεί",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "8"
+						},
+						{
+							"_id": "5",
+							"_form": "ἐπαύσαντο",
+							"_lemma": "παύω",
+							"_postag": "v3paim---",
+							"_relation": "ADV",
+							"_head": "4"
+						},
+						{
+							"_id": "6",
+							"_form": "μαχόμενοι",
+							"_lemma": "μάχομαι",
+							"_postag": "v-pppemn-",
+							"_relation": "ADV",
+							"_head": "5"
+						},
+						{
+							"_id": "7",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "εἶπόν",
+							"_lemma": "εἶπον",
+							"_postag": "v3paia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "9",
+							"_form": "τινες",
+							"_lemma": "τις",
+							"_postag": "p-p---mn-",
+							"_relation": "SBJ",
+							"_head": "8"
+						},
+						{
+							"_id": "10",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "9"
+						},
+						{
+							"_id": "11",
+							"_form": "τούτων",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---mg-",
+							"_relation": "ATR",
+							"_head": "9"
+						},
+						{
+							"_id": "12",
+							"_form": "παρόντων",
+							"_lemma": "πάρειμι",
+							"_postag": "v-pppamg-",
+							"_relation": "ATR",
+							"_head": "11"
+						},
+						{
+							"_id": "13",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "8"
+						},
+						{
+							"_id": "14",
+							"_form": "εἴη",
+							"_lemma": "εἰμί",
+							"_postag": "v3spoa---",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "15",
+							"_form": "αὐτῷ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---md-",
+							"_relation": "PNOM",
+							"_head": "14"
+						},
+						{
+							"_id": "16",
+							"_form": "ἀδελφὸς",
+							"_lemma": "ἀδελφός",
+							"_postag": "n-s---mn-",
+							"_relation": "SBJ",
+							"_head": "14"
+						},
+						{
+							"_id": "17",
+							"_form": "ὃς",
+							"_lemma": "ὅς",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "18",
+							"_form": "ἐξαιρήσοιτο",
+							"_lemma": "ἐξαιρέω",
+							"_postag": "v3sfom---",
+							"_relation": "ATR",
+							"_head": "16"
+						},
+						{
+							"_id": "19",
+							"_form": "αὐτὸν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "20",
+							"_form": "εἰς",
+							"_lemma": "εἰς",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "18"
+						},
+						{
+							"_id": "21",
+							"_form": "ἐλευθερίαν",
+							"_lemma": "ἐλευθερία",
+							"_postag": "n-s---fa-",
+							"_relation": "ADV",
+							"_head": "20"
+						},
+						{
+							"_id": "22",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "21",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "9"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐπὶ",
+							"_lemma": "ἐπί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "τούτοις",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---nd-",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "3",
+							"_form": "ἐγγυησάμενοι",
+							"_lemma": "ἐγγυάω",
+							"_postag": "v-papmmn-",
+							"_relation": "ADV",
+							"_head": "7"
+						},
+						{
+							"_id": "4",
+							"_form": "παρέξειν",
+							"_lemma": "παρέχω",
+							"_postag": "v--fna---",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "5",
+							"_form": "εἰς",
+							"_lemma": "εἰς",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "4"
+						},
+						{
+							"_id": "6",
+							"_form": "αὔριον",
+							"_lemma": "αὔριον",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "5"
+						},
+						{
+							"_id": "7",
+							"_form": "ᾤχοντο",
+							"_lemma": "οἴχομαι",
+							"_postag": "v3piie---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "ἀπιόντες",
+							"_lemma": "ἄπειμι",
+							"_postag": "v-pppamn-",
+							"_relation": "ADV",
+							"_head": "7"
+						},
+						{
+							"_id": "9",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "22",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "10"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "τῇ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fd-",
+							"_relation": "ATR",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "δ̓",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "13"
+						},
+						{
+							"_id": "3",
+							"_form": "ὑστεραίᾳ",
+							"_lemma": "ὑστεραῖος",
+							"_postag": "a-s---fd-",
+							"_relation": "ADV",
+							"_head": "13"
+						},
+						{
+							"_id": "4",
+							"_form": "τῆς",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fg-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "5",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "6",
+							"_form": "ἀντιγραφῆς",
+							"_lemma": "ἀντιγραφή",
+							"_postag": "n-s---fg-",
+							"_relation": "ADV_CO",
+							"_head": "9"
+						},
+						{
+							"_id": "7",
+							"_form": "ἕνεκα",
+							"_lemma": "ἕνεκα",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "13"
+						},
+						{
+							"_id": "8",
+							"_form": "ταυτησὶ",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---fg-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "9",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "7"
+						},
+						{
+							"_id": "10",
+							"_form": "αὐτῆς",
+							"_lemma": "αὐτός",
+							"_postag": "a-s---fg-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "11",
+							"_form": "τῆς",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fg-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "δίκης",
+							"_lemma": "δίκη",
+							"_postag": "n-s---fg-",
+							"_relation": "ADV_CO",
+							"_head": "9"
+						},
+						{
+							"_id": "13",
+							"_form": "ἔδοξέ",
+							"_lemma": "δοκέω",
+							"_postag": "v3saia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "14",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "15",
+							"_form": "χρῆναι",
+							"_lemma": "χρή",
+							"_postag": "v--pna---",
+							"_relation": "ADV",
+							"_head": "16"
+						},
+						{
+							"_id": "16",
+							"_form": "μάρτυρας",
+							"_lemma": "μάρτυς",
+							"_postag": "n-p---ma-",
+							"_relation": "OBJ",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "λαβόντι",
+							"_lemma": "λαμβάνω",
+							"_postag": "v-sapamd-",
+							"_relation": "ADV",
+							"_head": "13"
+						},
+						{
+							"_id": "18",
+							"_form": "παραγενέσθαι",
+							"_lemma": "παραγίγνομαι",
+							"_postag": "v--anm---",
+							"_relation": "SBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "19",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "20",
+							"_form": "ἵν̓",
+							"_lemma": "ἵνα",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "18"
+						},
+						{
+							"_id": "21",
+							"_form": "εἰδείην",
+							"_lemma": "οἶδα",
+							"_postag": "v1sroa---",
+							"_relation": "ADV",
+							"_head": "20"
+						},
+						{
+							"_id": "22",
+							"_form": "τόν",
+							"_lemma": "ὅς",
+							"_postag": "p-s---ma-",
+							"_relation": "SBJ",
+							"_head": "24"
+						},
+						{
+							"_id": "23",
+							"_form": "τ̓",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "26"
+						},
+						{
+							"_id": "24",
+							"_form": "ἐξαιρησόμενον",
+							"_lemma": "ἐξαιρέω",
+							"_postag": "v-sfpmma-",
+							"_relation": "OBJ_CO",
+							"_head": "26"
+						},
+						{
+							"_id": "25",
+							"_form": "αὐτὸν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "24"
+						},
+						{
+							"_id": "26",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "21"
+						},
+						{
+							"_id": "27",
+							"_form": "ὅ",
+							"_lemma": "ὅς",
+							"_postag": "p-s---na-",
+							"_relation": "OBJ",
+							"_head": "29"
+						},
+						{
+							"_id": "28",
+							"_form": "τι",
+							"_lemma": "τις",
+							"_postag": "a-s---na-",
+							"_relation": "ATR",
+							"_head": "27"
+						},
+						{
+							"_id": "29",
+							"_form": "λέγων",
+							"_lemma": "λέγω",
+							"_postag": "v-sppamn-",
+							"_relation": "ADV",
+							"_head": "30"
+						},
+						{
+							"_id": "30",
+							"_form": "ἀφαιρήσοιτο",
+							"_lemma": "ἀφαιρέω",
+							"_postag": "v3sfom---",
+							"_relation": "OBJ_CO",
+							"_head": "26"
+						},
+						{
+							"_id": "31",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "23",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "10"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐφ̓",
+							"_lemma": "ἐπί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "5"
+						},
+						{
+							"_id": "2",
+							"_form": "οἷς",
+							"_lemma": "ὅς",
+							"_postag": "p-p---nd-",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "3",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "15"
+						},
+						{
+							"_id": "4",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "26"
+						},
+						{
+							"_id": "5",
+							"_form": "ἐξηγγυήθη",
+							"_lemma": "ἐξεγγυάω",
+							"_postag": "v3saip---",
+							"_relation": "ADV",
+							"_head": "26"
+						},
+						{
+							"_id": "6",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "7",
+							"_form": "οὔτε",
+							"_lemma": "οὐτε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "8",
+							"_form": "ἀδελφὸς",
+							"_lemma": "ἀδελφός",
+							"_postag": "n-s---mn-",
+							"_relation": "SBJ_CO",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "οὔτε",
+							"_lemma": "οὐτε",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "15"
+						},
+						{
+							"_id": "10",
+							"_form": "ἄλλος",
+							"_lemma": "ἄλλος",
+							"_postag": "a-s---mn-",
+							"_relation": "ATR",
+							"_head": "11"
+						},
+						{
+							"_id": "11",
+							"_form": "οὐδεὶς",
+							"_lemma": "οὐδείς",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ_CO",
+							"_head": "9"
+						},
+						{
+							"_id": "12",
+							"_form": "ἦλθε",
+							"_lemma": "ἔρχομαι",
+							"_postag": "v3saia---",
+							"_relation": "PRED_CO",
+							"_head": "26"
+						},
+						{
+							"_id": "13",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "14",
+							"_form": "γυνὴ",
+							"_lemma": "γυνή",
+							"_postag": "n-s---fn-",
+							"_relation": "SBJ_CO",
+							"_head": "15"
+						},
+						{
+							"_id": "15",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "26"
+						},
+						{
+							"_id": "16",
+							"_form": "φάσκουσα",
+							"_lemma": "φάσκω",
+							"_postag": "v-sppafn-",
+							"_relation": "ADV",
+							"_head": "12"
+						},
+						{
+							"_id": "17",
+							"_form": "αὑτῆς",
+							"_lemma": "ἑαυτοῦ",
+							"_postag": "p-s---fg-",
+							"_relation": "ATR",
+							"_head": "20"
+						},
+						{
+							"_id": "18",
+							"_form": "αὐτὸν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "SBJ",
+							"_head": "19"
+						},
+						{
+							"_id": "19",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "16"
+						},
+						{
+							"_id": "20",
+							"_form": "δοῦλον",
+							"_lemma": "δοῦλος",
+							"_postag": "n-s---ma-",
+							"_relation": "PNOM",
+							"_head": "19"
+						},
+						{
+							"_id": "21",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "22",
+							"_form": "ἀμφισβητοῦσα",
+							"_lemma": "ἀμφισβητέω",
+							"_postag": "v-sppafn-",
+							"_relation": "ADV",
+							"_head": "12"
+						},
+						{
+							"_id": "23",
+							"_form": "τῷ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---md-",
+							"_relation": "ATR",
+							"_head": "24"
+						},
+						{
+							"_id": "24",
+							"_form": "Νικομήδει",
+							"_lemma": "Νικομήδης",
+							"_postag": "n-s---md-",
+							"_relation": "OBJ",
+							"_head": "22"
+						},
+						{
+							"_id": "25",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "26",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "0"
+						},
+						{
+							"_id": "27",
+							"_form": "οὐκ",
+							"_lemma": "οὐ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "29"
+						},
+						{
+							"_id": "28",
+							"_form": "ἔφη",
+							"_lemma": "φημί",
+							"_postag": "v3siia---",
+							"_relation": "PRED_CO",
+							"_head": "26"
+						},
+						{
+							"_id": "29",
+							"_form": "ἐάσειν",
+							"_lemma": "ἐάω",
+							"_postag": "v--fna---",
+							"_relation": "OBJ",
+							"_head": "28"
+						},
+						{
+							"_id": "30",
+							"_form": "αὐτὸν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "31"
+						},
+						{
+							"_id": "31",
+							"_form": "ἄγειν",
+							"_lemma": "ἄγω",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "29"
+						},
+						{
+							"_id": "32",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "24",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "10"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὅσα",
+							"_lemma": "ὅσος",
+							"_postag": "a-p---nn-",
+							"_relation": "SBJ",
+							"_head": "5"
+						},
+						{
+							"_id": "2",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "3",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "4",
+							"_form": "αὐτόθι",
+							"_lemma": "αὐτόθι",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ἐρρήθη",
+							"_lemma": "ἐρῶ",
+							"_postag": "v3saip---",
+							"_relation": "SBJ_AP",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "APOS",
+							"_head": "9"
+						},
+						{
+							"_id": "7",
+							"_form": "πολὺς",
+							"_lemma": "πολύς",
+							"_postag": "a-s---mn-",
+							"_relation": "PNOM",
+							"_head": "9"
+						},
+						{
+							"_id": "8",
+							"_form": "ἂν",
+							"_lemma": "ἄν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "εἴη",
+							"_lemma": "εἰμί",
+							"_postag": "v3spoa---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "ATR",
+							"_head": "11"
+						},
+						{
+							"_id": "11",
+							"_form": "λόγος",
+							"_lemma": "λόγος",
+							"_postag": "n-s---mn-",
+							"_relation": "SBJ_AP",
+							"_head": "6"
+						},
+						{
+							"_id": "12",
+							"_form": "διηγεῖσθαι",
+							"_lemma": "διηγέομαι",
+							"_postag": "v--pne---",
+							"_relation": "ADV",
+							"_head": "7"
+						},
+						{
+							"_id": "13",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "25",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "11"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "εἰς",
+							"_lemma": "εἰς",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "5"
+						},
+						{
+							"_id": "2",
+							"_form": "τοῦτο",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---na-",
+							"_relation": "OBJ",
+							"_head": "1"
+						},
+						{
+							"_id": "3",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "5"
+						},
+						{
+							"_id": "4",
+							"_form": "βιαιότητος",
+							"_lemma": "βιαιότης",
+							"_postag": "n-s---fg-",
+							"_relation": "ATR",
+							"_head": "2"
+						},
+						{
+							"_id": "5",
+							"_form": "ἦλθον",
+							"_lemma": "ἔρχομαι",
+							"_postag": "v3paia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "6",
+							"_form": "οἵ",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mn-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "7",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "10"
+						},
+						{
+							"_id": "8",
+							"_form": "παρόντες",
+							"_lemma": "πάρειμι",
+							"_postag": "v-pppamn-",
+							"_relation": "SBJ_CO",
+							"_head": "10"
+						},
+						{
+							"_id": "9",
+							"_form": "τούτῳ",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---nd-",
+							"_relation": "OBJ",
+							"_head": "8"
+						},
+						{
+							"_id": "10",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "5"
+						},
+						{
+							"_id": "11",
+							"_form": "αὐτὸς",
+							"_lemma": "αὐτός",
+							"_postag": "a-s---mn-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "οὗτος",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ_CO",
+							"_head": "10"
+						},
+						{
+							"_id": "13",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "14",
+							"_form": "ὥστε",
+							"_lemma": "ὥστε",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "2"
+						},
+						{
+							"_id": "15",
+							"_form": "ἐθέλοντος",
+							"_lemma": "ἐθέλω",
+							"_postag": "v-sppamg-",
+							"_relation": "ADV_CO",
+							"_head": "20"
+						},
+						{
+							"_id": "16",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "20"
+						},
+						{
+							"_id": "17",
+							"_form": "τοῦ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---mg-",
+							"_relation": "ATR",
+							"_head": "18"
+						},
+						{
+							"_id": "18",
+							"_form": "Νικομήδους",
+							"_lemma": "Νικομήδης",
+							"_postag": "n-s---mg-",
+							"_relation": "SBJ",
+							"_head": "15"
+						},
+						{
+							"_id": "19",
+							"_form": "ἐθελούσης",
+							"_lemma": "ἐθέλω",
+							"_postag": "v-sppafg-",
+							"_relation": "ADV_CO",
+							"_head": "20"
+						},
+						{
+							"_id": "20",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "43"
+						},
+						{
+							"_id": "21",
+							"_form": "τῆς",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fg-",
+							"_relation": "ATR",
+							"_head": "22"
+						},
+						{
+							"_id": "22",
+							"_form": "γυναικὸς",
+							"_lemma": "γυνή",
+							"_postag": "n-s---fg-",
+							"_relation": "SBJ",
+							"_head": "19"
+						},
+						{
+							"_id": "23",
+							"_form": "ἀφιέναι",
+							"_lemma": "ἀφίημι",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "20"
+						},
+						{
+							"_id": "24",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "25",
+							"_form": "εἴ",
+							"_lemma": "εἰ",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "20"
+						},
+						{
+							"_id": "26",
+							"_form": "τις",
+							"_lemma": "τις",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "31"
+						},
+						{
+							"_id": "27",
+							"_form": "ἢ",
+							"_lemma": "ἤ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "32"
+						},
+						{
+							"_id": "28",
+							"_form": "εἰς",
+							"_lemma": "εἰς",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "31"
+						},
+						{
+							"_id": "29",
+							"_form": "ἐλευθερίαν",
+							"_lemma": "ἐλευθερία",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "28"
+						},
+						{
+							"_id": "30",
+							"_form": "τοῦτον",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "31"
+						},
+						{
+							"_id": "31",
+							"_form": "ἀφαιροῖτο",
+							"_lemma": "ἀφαιρέω",
+							"_postag": "v3spoe---",
+							"_relation": "ADV_CO",
+							"_head": "32"
+						},
+						{
+							"_id": "32",
+							"_form": "ἢ",
+							"_lemma": "ἤ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "25"
+						},
+						{
+							"_id": "33",
+							"_form": "ἄγοι",
+							"_lemma": "ἄγω",
+							"_postag": "v3spoa---",
+							"_relation": "ADV_CO",
+							"_head": "32"
+						},
+						{
+							"_id": "34",
+							"_form": "φάσκων",
+							"_lemma": "φάσκω",
+							"_postag": "v-sppamn-",
+							"_relation": "ADV",
+							"_head": "33"
+						},
+						{
+							"_id": "35",
+							"_form": "ἑαυτοῦ",
+							"_lemma": "ἑαυτοῦ",
+							"_postag": "p-s---mg-",
+							"_relation": "ATR",
+							"_head": "36"
+						},
+						{
+							"_id": "36",
+							"_form": "δοῦλον",
+							"_lemma": "δοῦλος",
+							"_postag": "n-s---ma-",
+							"_relation": "PNOM",
+							"_head": "37"
+						},
+						{
+							"_id": "37",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "34"
+						},
+						{
+							"_id": "38",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "39",
+							"_form": "τούτων",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---ng-",
+							"_relation": "ATR",
+							"_head": "40"
+						},
+						{
+							"_id": "40",
+							"_form": "οὐδὲν",
+							"_lemma": "οὐδείς",
+							"_postag": "p-s---na-",
+							"_relation": "OBJ",
+							"_head": "41"
+						},
+						{
+							"_id": "41",
+							"_form": "ποιήσαντες",
+							"_lemma": "ποιέω",
+							"_postag": "v-papamn-",
+							"_relation": "ADV",
+							"_head": "43"
+						},
+						{
+							"_id": "42",
+							"_form": "ἀφελόμενοι",
+							"_lemma": "ἀφαιρέω",
+							"_postag": "v-papmmn-",
+							"_relation": "ADV",
+							"_head": "43"
+						},
+						{
+							"_id": "43",
+							"_form": "ᾤχοντο",
+							"_lemma": "οἴχομαι",
+							"_postag": "v3piie---",
+							"_relation": "ADV",
+							"_head": "14"
+						},
+						{
+							"_id": "44",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "26",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "11"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὡς",
+							"_lemma": "ὡς",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "16"
+						},
+						{
+							"_id": "2",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "17"
+						},
+						{
+							"_id": "3",
+							"_form": "τῇ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fd-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "4",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "5",
+							"_form": "προτεραίᾳ",
+							"_lemma": "προτεραῖος",
+							"_postag": "a-s---fd-",
+							"_relation": "ADV",
+							"_head": "8"
+						},
+						{
+							"_id": "6",
+							"_form": "ἐπὶ",
+							"_lemma": "ἐπί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "8"
+						},
+						{
+							"_id": "7",
+							"_form": "τούτοις",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---md-",
+							"_relation": "ADV",
+							"_head": "6"
+						},
+						{
+							"_id": "8",
+							"_form": "ἐξηγγυήθη",
+							"_lemma": "ἐξεγγυάω",
+							"_postag": "v3saip---",
+							"_relation": "ATR_CO",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "1"
+						},
+						{
+							"_id": "10",
+							"_form": "τότε",
+							"_lemma": "τότε",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "12"
+						},
+						{
+							"_id": "11",
+							"_form": "βίᾳ",
+							"_lemma": "βία",
+							"_postag": "n-s---fd-",
+							"_relation": "ADV",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "ᾤχοντο",
+							"_lemma": "οἴχομαι",
+							"_postag": "v3piie---",
+							"_relation": "ATR_CO",
+							"_head": "9"
+						},
+						{
+							"_id": "13",
+							"_form": "ἀφελόμενοι",
+							"_lemma": "ἀφαιρέω",
+							"_postag": "v-papmmn-",
+							"_relation": "ADV",
+							"_head": "12"
+						},
+						{
+							"_id": "14",
+							"_form": "αὐτόν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "15",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "16",
+							"_form": "μάρτυρας",
+							"_lemma": "μάρτυς",
+							"_postag": "n-p---ma-",
+							"_relation": "OBJ",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "παρέξομαι",
+							"_lemma": "παρέχω",
+							"_postag": "v1sfim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "18",
+							"_form": "ὑμῖν",
+							"_lemma": "σύ",
+							"_postag": "p-p---md-",
+							"_relation": "OBJ",
+							"_head": "17"
+						},
+						{
+							"_id": "19",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "27",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "11"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καί",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "3",
+							"_form": "ἐπίλαβε",
+							"_lemma": "ἐπιλαμβάνω",
+							"_postag": "v2sama---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ὕδωρ",
+							"_lemma": "ὕδωρ",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "28",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "11"
+				},
+				{
+					"word": {
+						"_id": "1",
+						"_form": "Μάρτυρες",
+						"_lemma": "μάρτυς",
+						"_postag": "n-p---mn-",
+						"_relation": "ExD",
+						"_head": "0"
+					},
+					"_id": "29",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "11"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ῥᾴδιον",
+							"_lemma": "ῥᾴδιος",
+							"_postag": "a-s---nn-",
+							"_relation": "PNOM",
+							"_head": "19"
+						},
+						{
+							"_id": "2",
+							"_form": "τοίνυν",
+							"_lemma": "τοίνυν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "19"
+						},
+						{
+							"_id": "3",
+							"_form": "εἰδέναι",
+							"_lemma": "οἶδα",
+							"_postag": "v--rna---",
+							"_relation": "SBJ",
+							"_head": "19"
+						},
+						{
+							"_id": "4",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "3"
+						},
+						{
+							"_id": "5",
+							"_form": "οὐδ̓",
+							"_lemma": "οὐδέ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "8"
+						},
+						{
+							"_id": "6",
+							"_form": "αὐτὸς",
+							"_lemma": "αὐτός",
+							"_postag": "a-s---mn-",
+							"_relation": "ATR",
+							"_head": "7"
+						},
+						{
+							"_id": "7",
+							"_form": "Παγκλέων",
+							"_lemma": "Παγκλέων",
+							"_postag": "n-s---mn-",
+							"_relation": "SBJ",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "νομίζει",
+							"_lemma": "νομίζω",
+							"_postag": "v3spia---",
+							"_relation": "OBJ",
+							"_head": "4"
+						},
+						{
+							"_id": "9",
+							"_form": "ἑαυτὸν",
+							"_lemma": "ἑαυτοῦ",
+							"_postag": "p-s---ma-",
+							"_relation": "SBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "10",
+							"_form": "μὴ",
+							"_lemma": "μή",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "12"
+						},
+						{
+							"_id": "11",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "8"
+						},
+						{
+							"_id": "12",
+							"_form": "Πλαταιέα",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---ma-",
+							"_relation": "PNOM_CO",
+							"_head": "15"
+						},
+						{
+							"_id": "13",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "11"
+						},
+						{
+							"_id": "14",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "15",
+							"_form": "ἀλλ̓",
+							"_lemma": "ἀλλά",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "13"
+						},
+						{
+							"_id": "16",
+							"_form": "οὐδ̓",
+							"_lemma": "οὐδέ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "ἐλεύθερον",
+							"_lemma": "ἐλεύθερος",
+							"_postag": "a-s---ma-",
+							"_relation": "PNOM_CO",
+							"_head": "15"
+						},
+						{
+							"_id": "18",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						},
+						{
+							"_id": "19",
+							"_insertion_id": "0018e",
+							"_artificial": "elliptic",
+							"_relation": "PRED",
+							"_lemma": "εἰμί",
+							"_postag": "v3spia---",
+							"_form": "ἐστιν",
+							"_head": "0"
+						}
+					],
+					"_id": "30",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "12"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὅστις",
+							"_lemma": "ὅστις",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "γὰρ",
+							"_lemma": "γάρ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "46"
+						},
+						{
+							"_id": "3",
+							"_form": "ἐβουλήθη",
+							"_lemma": "βούλομαι",
+							"_postag": "v3saip---",
+							"_relation": "SBJ",
+							"_head": "38"
+						},
+						{
+							"_id": "4",
+							"_form": "βίᾳ",
+							"_lemma": "βία",
+							"_postag": "n-s---fd-",
+							"_relation": "ADV",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ἀφαιρεθεὶς",
+							"_lemma": "ἀφαιρέω",
+							"_postag": "v-sappmn-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": "ἐνόχους",
+							"_lemma": "ἔνοχος",
+							"_postag": "a-p---ma-",
+							"_relation": "OCOMP",
+							"_head": "7"
+						},
+						{
+							"_id": "7",
+							"_form": "καταστῆσαι",
+							"_lemma": "καθίστημι",
+							"_postag": "v--ana---",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "8",
+							"_form": "τοὺς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---ma-",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "9",
+							"_form": "ἑαυτοῦ",
+							"_lemma": "ἑαυτοῦ",
+							"_postag": "p-s---mg-",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "10",
+							"_form": "ἐπιτηδείους",
+							"_lemma": "ἐπιτήδειος",
+							"_postag": "a-p---ma-",
+							"_relation": "OBJ",
+							"_head": "7"
+						},
+						{
+							"_id": "11",
+							"_form": "τοῖς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---nd-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "βιαίοις",
+							"_lemma": "βίαιος",
+							"_postag": "a-p---nd-",
+							"_relation": "ADV",
+							"_head": "7"
+						},
+						{
+							"_id": "13",
+							"_form": "μᾶλλον",
+							"_lemma": "μᾶλλον",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "7"
+						},
+						{
+							"_id": "14",
+							"_form": "ἢ",
+							"_lemma": "ἤ",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "13"
+						},
+						{
+							"_id": "15",
+							"_form": "κατὰ",
+							"_lemma": "κατά",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "21"
+						},
+						{
+							"_id": "16",
+							"_form": "τοὺς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---ma-",
+							"_relation": "ATR",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "νόμους",
+							"_lemma": "νόμος",
+							"_postag": "n-p---ma-",
+							"_relation": "ADV",
+							"_head": "15"
+						},
+						{
+							"_id": "18",
+							"_form": "εἰς",
+							"_lemma": "εἰς",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "21"
+						},
+						{
+							"_id": "19",
+							"_form": "τὴν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "20"
+						},
+						{
+							"_id": "20",
+							"_form": "ἐλευθερίαν",
+							"_lemma": "ἐλευθερία",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "21",
+							"_form": "ἐξαιρεθεὶς",
+							"_lemma": "ἐξαιρέω",
+							"_postag": "v-sappmn-",
+							"_relation": "ADV",
+							"_head": "23"
+						},
+						{
+							"_id": "22",
+							"_form": "δίκην",
+							"_lemma": "δίκη",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "23"
+						},
+						{
+							"_id": "23",
+							"_form": "λαβεῖν",
+							"_lemma": "λαμβάνω",
+							"_postag": "v--ana---",
+							"_relation": "ADV",
+							"_head": "14"
+						},
+						{
+							"_id": "24",
+							"_form": "παρὰ",
+							"_lemma": "παρά",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "23"
+						},
+						{
+							"_id": "25",
+							"_form": "τῶν",
+							"_lemma": "ὁ",
+							"_postag": "l-p---mg-",
+							"_relation": "ATR",
+							"_head": "26"
+						},
+						{
+							"_id": "26",
+							"_form": "ἀγόντων",
+							"_lemma": "ἄγω",
+							"_postag": "v-pppamg-",
+							"_relation": "ADV",
+							"_head": "24"
+						},
+						{
+							"_id": "27",
+							"_form": "αὐτόν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "ATR",
+							"_head": "26"
+						},
+						{
+							"_id": "28",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "29",
+							"_form": "οὐδενὶ",
+							"_lemma": "οὐδείς",
+							"_postag": "p-s---md-",
+							"_relation": "ADV",
+							"_head": "30"
+						},
+						{
+							"_id": "30",
+							"_form": "χαλεπὸν",
+							"_lemma": "χαλεπός",
+							"_postag": "a-s---nn-",
+							"_relation": "PNOM",
+							"_head": "46"
+						},
+						{
+							"_id": "31",
+							"_form": "γνῶναι",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v--ana---",
+							"_relation": "SBJ",
+							"_head": "46"
+						},
+						{
+							"_id": "32",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "31"
+						},
+						{
+							"_id": "33",
+							"_form": "εὖ",
+							"_lemma": "εὖ",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "34"
+						},
+						{
+							"_id": "34",
+							"_form": "εἰδὼς",
+							"_lemma": "οἶδα",
+							"_postag": "v-srpamn-",
+							"_relation": "ADV",
+							"_head": "38"
+						},
+						{
+							"_id": "35",
+							"_form": "ἑαυτὸν",
+							"_lemma": "ἑαυτοῦ",
+							"_postag": "p-s---ma-",
+							"_relation": "SBJ",
+							"_head": "36"
+						},
+						{
+							"_id": "36",
+							"_form": "ὄντα",
+							"_lemma": "εἰμί",
+							"_postag": "v-sppama-",
+							"_relation": "OBJ",
+							"_head": "34"
+						},
+						{
+							"_id": "37",
+							"_form": "δοῦλον",
+							"_lemma": "δοῦλος",
+							"_postag": "n-s---ma-",
+							"_relation": "PNOM",
+							"_head": "36"
+						},
+						{
+							"_id": "38",
+							"_form": "ἔδεισεν",
+							"_lemma": "δείδω",
+							"_postag": "v3saia---",
+							"_relation": "OBJ",
+							"_head": "32"
+						},
+						{
+							"_id": "39",
+							"_form": "ἐγγυητὰς",
+							"_lemma": "ἐγγυητής",
+							"_postag": "n-p---ma-",
+							"_relation": "OBJ",
+							"_head": "40"
+						},
+						{
+							"_id": "40",
+							"_form": "καταστήσας",
+							"_lemma": "καθίστημι",
+							"_postag": "v-sapamn-",
+							"_relation": "ADV",
+							"_head": "38"
+						},
+						{
+							"_id": "41",
+							"_form": "περὶ",
+							"_lemma": "περί",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "44"
+						},
+						{
+							"_id": "42",
+							"_form": "τοῦ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ng-",
+							"_relation": "ATR",
+							"_head": "43"
+						},
+						{
+							"_id": "43",
+							"_form": "σώματος",
+							"_lemma": "σῶμα",
+							"_postag": "n-s---ng-",
+							"_relation": "ADV",
+							"_head": "41"
+						},
+						{
+							"_id": "44",
+							"_form": "ἀγωνίσασθαι",
+							"_lemma": "ἀγωνίζομαι",
+							"_postag": "v--ane---",
+							"_relation": "OBJ",
+							"_head": "38"
+						},
+						{
+							"_id": "45",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						},
+						{
+							"_id": "46",
+							"_insertion_id": "0045e",
+							"_artificial": "elliptic",
+							"_relation": "PRED",
+							"_lemma": "εἰμί",
+							"_postag": "v3spia---",
+							"_form": "ἐστιν",
+							"_head": "0"
+						}
+					],
+					"_id": "31",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "12"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "15"
+						},
+						{
+							"_id": "2",
+							"_form": "μὲν",
+							"_lemma": "μέν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "3",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "9"
+						},
+						{
+							"_id": "4",
+							"_form": "Πλαταιεὺς",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---mn-",
+							"_relation": "PNOM",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "7"
+						},
+						{
+							"_id": "6",
+							"_form": "πολλοῦ",
+							"_lemma": "πολύς",
+							"_postag": "a-s---ng-",
+							"_relation": "OBJ",
+							"_head": "7"
+						},
+						{
+							"_id": "7",
+							"_form": "δεῖ",
+							"_lemma": "δέω",
+							"_postag": "v3spia---",
+							"_relation": "OBJ",
+							"_head": "1"
+						},
+						{
+							"_id": "8",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "9",
+							"_form": "οἶμαι",
+							"_lemma": "οἴομαι",
+							"_postag": "v1spie---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": "ὑμᾶς",
+							"_lemma": "σύ",
+							"_postag": "p-p---ma-",
+							"_relation": "SBJ",
+							"_head": "15"
+						},
+						{
+							"_id": "11",
+							"_form": "ἐκ",
+							"_lemma": "ἐκ",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "15"
+						},
+						{
+							"_id": "12",
+							"_form": "τούτων",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---ng-",
+							"_relation": "ADV",
+							"_head": "11"
+						},
+						{
+							"_id": "13",
+							"_form": "σχεδόν",
+							"_lemma": "σχεδόν",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "14"
+						},
+						{
+							"_id": "14",
+							"_form": "τι",
+							"_lemma": "τις",
+							"_postag": "p-s---na-",
+							"_relation": "ADV",
+							"_head": "15"
+						},
+						{
+							"_id": "15",
+							"_form": "γιγνώσκειν",
+							"_lemma": "γιγνώσκω",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "16",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "32",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "13"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "24"
+						},
+						{
+							"_id": "2",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "24"
+						},
+						{
+							"_id": "3",
+							"_form": "οὐδ̓",
+							"_lemma": "οὐδέ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "13"
+						},
+						{
+							"_id": "4",
+							"_form": "αὐτὸς",
+							"_lemma": "αὐτός",
+							"_postag": "a-s---mn-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "οὗτος",
+							"_lemma": "οὗτος",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "6",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "7",
+							"_form": "ὃς",
+							"_lemma": "ὅς",
+							"_postag": "p-s---mn-",
+							"_relation": "SBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "8",
+							"_form": "ἄριστα",
+							"_lemma": "ἄριστος",
+							"_postag": "a-p---na-",
+							"_relation": "ADV",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "οἶδε",
+							"_lemma": "οἶδα",
+							"_postag": "v3sria---",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "10",
+							"_form": "τὰ",
+							"_lemma": "ὁ",
+							"_postag": "l-p---na-",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "11",
+							"_form": "αὑτοῦ",
+							"_lemma": "ἑαυτοῦ",
+							"_postag": "p-s---mg-",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "13",
+							"_form": "ἡγήσατο",
+							"_lemma": "ἡγέομαι",
+							"_postag": "v3saim---",
+							"_relation": "OBJ",
+							"_head": "1"
+						},
+						{
+							"_id": "14",
+							"_form": "δόξαι",
+							"_lemma": "δοκέω",
+							"_postag": "v--ana---",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "15",
+							"_form": "ἂν",
+							"_lemma": "ἄν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "14"
+						},
+						{
+							"_id": "16",
+							"_form": "ὑμῖν",
+							"_lemma": "σύ",
+							"_postag": "p-p---md-",
+							"_relation": "OBJ",
+							"_head": "14"
+						},
+						{
+							"_id": "17",
+							"_form": "Πλαταιεὺς",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---mn-",
+							"_relation": "PNOM",
+							"_head": "18"
+						},
+						{
+							"_id": "18",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "14"
+						},
+						{
+							"_id": "19",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "20",
+							"_form": "ἐξ",
+							"_lemma": "ἐκ",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "22"
+						},
+						{
+							"_id": "21",
+							"_form": "ὧν",
+							"_lemma": "ὅς",
+							"_postag": "p-p---ng-",
+							"_relation": "ADV",
+							"_head": "20"
+						},
+						{
+							"_id": "22",
+							"_form": "ἔραξε",
+							"_lemma": "ἀράσσω",
+							"_postag": "v3saia---",
+							"_relation": "ADV",
+							"_head": "24"
+						},
+						{
+							"_id": "23",
+							"_form": "ῥαδίως",
+							"_lemma": "ῥᾴδιος",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "24"
+						},
+						{
+							"_id": "24",
+							"_form": "μαθήσεσθε",
+							"_lemma": "μανθάνω",
+							"_postag": "v2pfim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "25",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "33",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "13"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐν",
+							"_lemma": "ἐν",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "22"
+						},
+						{
+							"_id": "2",
+							"_form": "τῇ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fd-",
+							"_relation": "ATR",
+							"_head": "3"
+						},
+						{
+							"_id": "3",
+							"_form": "ἀντωμοσίᾳ",
+							"_lemma": "ἀντωμοσία",
+							"_postag": "n-s---fd-",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "4",
+							"_form": "γὰρ",
+							"_lemma": "γάρ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "22"
+						},
+						{
+							"_id": "5",
+							"_form": "τῆς",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fg-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "δίκης",
+							"_lemma": "δίκη",
+							"_postag": "n-s---fg-",
+							"_relation": "ATR",
+							"_head": "3"
+						},
+						{
+							"_id": "7",
+							"_form": "ἣν",
+							"_lemma": "ὅς",
+							"_postag": "p-s---fa-",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "8",
+							"_form": "αὐτῷ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---md-",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "ἔλαχεν",
+							"_lemma": "λαγχάνω",
+							"_postag": "v3saia---",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "10",
+							"_form": "Ἀριστόδικος",
+							"_lemma": "Ἀριστόδικος",
+							"_postag": "n-s---mn-",
+							"_relation": "SBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "11",
+							"_form": "οὑτοσί",
+							"_lemma": "οὗτος",
+							"_postag": "a-s---mn-",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "13",
+							"_form": "ἀμφισβητῶν",
+							"_lemma": "ἀμφισβητέω",
+							"_postag": "v-sppamn-",
+							"_relation": "ADV",
+							"_head": "22"
+						},
+						{
+							"_id": "14",
+							"_form": "μὴ",
+							"_lemma": "μή",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "17"
+						},
+						{
+							"_id": "15",
+							"_form": "πρὸς",
+							"_lemma": "πρός",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "18"
+						},
+						{
+							"_id": "16",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "πολέμαρχον",
+							"_lemma": "πολέμαρχος",
+							"_postag": "n-s---ma-",
+							"_relation": "PNOM",
+							"_head": "15"
+						},
+						{
+							"_id": "18",
+							"_form": "εἶναί",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "13"
+						},
+						{
+							"_id": "19",
+							"_form": "οἱ",
+							"_lemma": "ἕ",
+							"_postag": "p-s---md-",
+							"_relation": "ATR",
+							"_head": "21"
+						},
+						{
+							"_id": "20",
+							"_form": "τὰς",
+							"_lemma": "ὁ",
+							"_postag": "l-p---fa-",
+							"_relation": "ATR",
+							"_head": "21"
+						},
+						{
+							"_id": "21",
+							"_form": "δίκας",
+							"_lemma": "δίκη",
+							"_postag": "n-p---fa-",
+							"_relation": "SBJ",
+							"_head": "18"
+						},
+						{
+							"_id": "22",
+							"_form": "διεμαρτυρήθη",
+							"_lemma": "διαμαρτυρέω",
+							"_postag": "v3saip---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "23",
+							"_form": "μὴ",
+							"_lemma": "μή",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "24"
+						},
+						{
+							"_id": "24",
+							"_form": "Πλαταιεὺς",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---mn-",
+							"_relation": "PNOM",
+							"_head": "25"
+						},
+						{
+							"_id": "25",
+							"_form": "εἶναι",
+							"_lemma": "εἰμί",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "22"
+						},
+						{
+							"_id": "26",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "34",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "13"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐπισκηψάμενος",
+							"_lemma": "ἐπισκήπτω",
+							"_postag": "v-sapmmn-",
+							"_relation": "ADV",
+							"_head": "6"
+						},
+						{
+							"_id": "2",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "8"
+						},
+						{
+							"_id": "3",
+							"_form": "τῷ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---md-",
+							"_relation": "ATR",
+							"_head": "4"
+						},
+						{
+							"_id": "4",
+							"_form": "μάρτυρι",
+							"_lemma": "μάρτυς",
+							"_postag": "n-s---md-",
+							"_relation": "OBJ",
+							"_head": "1"
+						},
+						{
+							"_id": "5",
+							"_form": "οὐκ",
+							"_lemma": "οὐ",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "ἐπεξῆλθεν",
+							"_lemma": "ἐπεξέρχομαι",
+							"_postag": "v3saia---",
+							"_relation": "PRED_CO",
+							"_head": "8"
+						},
+						{
+							"_id": "7",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "ἀλλ̓",
+							"_lemma": "ἀλλά",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "0"
+						},
+						{
+							"_id": "9",
+							"_form": "εἴασε",
+							"_lemma": "ἐάω",
+							"_postag": "v3saia---",
+							"_relation": "PRED_CO",
+							"_head": "8"
+						},
+						{
+							"_id": "10",
+							"_form": "καταδικάσασθαι",
+							"_lemma": "καταδικάζω",
+							"_postag": "v--anm---",
+							"_relation": "OBJ",
+							"_head": "9"
+						},
+						{
+							"_id": "11",
+							"_form": "αὐτοῦ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---mg-",
+							"_relation": "OBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "13"
+						},
+						{
+							"_id": "13",
+							"_form": "Ἀριστόδικον",
+							"_lemma": "Ἀριστόδικος",
+							"_postag": "n-s---ma-",
+							"_relation": "SBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "14",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "35",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "14"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐπεὶ",
+							"_lemma": "ἐπεί",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "6"
+						},
+						{
+							"_id": "2",
+							"_form": "δὲ",
+							"_lemma": "δέ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "6"
+						},
+						{
+							"_id": "3",
+							"_form": "ὑπερήμερος",
+							"_lemma": "ὑπερήμερος",
+							"_postag": "a-s---mn-",
+							"_relation": "PNOM",
+							"_head": "4"
+						},
+						{
+							"_id": "4",
+							"_form": "ἐγένετο",
+							"_lemma": "γίγνομαι",
+							"_postag": "v3saim---",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "5",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "6",
+							"_form": "ἐξέτισε",
+							"_lemma": "ἐκτίνω",
+							"_postag": "v3saia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "7",
+							"_form": "τὴν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---fa-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "δίκην",
+							"_lemma": "δίκη",
+							"_postag": "n-s---fa-",
+							"_relation": "OBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "9",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": "καθ̓",
+							"_lemma": "κατά",
+							"_postag": "r--------",
+							"_relation": "AuxP",
+							"_head": "12"
+						},
+						{
+							"_id": "11",
+							"_form": "ὅτι",
+							"_lemma": "ὅστις",
+							"_postag": "p-s---na-",
+							"_relation": "ADV",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": "ἔπειθε",
+							"_lemma": "πείθω",
+							"_postag": "v3siia---",
+							"_relation": "ADV",
+							"_head": "6"
+						},
+						{
+							"_id": "13",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "36",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "14"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "10"
+						},
+						{
+							"_id": "2",
+							"_form": "τούτων",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---ng-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "3",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "ὡς",
+							"_lemma": "ὡς",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "2"
+						},
+						{
+							"_id": "5",
+							"_form": "ἀληθῆ",
+							"_lemma": "ἀληθής",
+							"_postag": "a-p---nn-",
+							"_relation": "PNOM",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "ἐστι",
+							"_lemma": "εἰμί",
+							"_postag": "v3spia---",
+							"_relation": "ATR",
+							"_head": "4"
+						},
+						{
+							"_id": "7",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "μάρτυρας",
+							"_lemma": "μάρτυς",
+							"_postag": "n-p---ma-",
+							"_relation": "OBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "9",
+							"_form": "ἐγὼ",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---mn-",
+							"_relation": "SBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "10",
+							"_form": "παρέξομαι",
+							"_lemma": "παρέχω",
+							"_postag": "v1sfim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "11",
+							"_form": "ὑμῖν",
+							"_lemma": "σύ",
+							"_postag": "p-p---md-",
+							"_relation": "OBJ",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "37",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "14"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καί",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "3",
+							"_form": "ἐπίλαβε",
+							"_lemma": "ἐπιλαμβάνω",
+							"_postag": "v2sama---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ὕδωρ",
+							"_lemma": "ὕδωρ",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "38",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "14"
+				},
+				{
+					"word": {
+						"_id": "1",
+						"_form": "Μάρτυρες",
+						"_lemma": "μάρτυς",
+						"_postag": "n-p---mn-",
+						"_relation": "ExD",
+						"_head": "0"
+					},
+					"_id": "39",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "14"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "πρὶν",
+							"_lemma": "πρίν",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "13"
+						},
+						{
+							"_id": "2",
+							"_form": "τοίνυν",
+							"_lemma": "τοίνυν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "13"
+						},
+						{
+							"_id": "3",
+							"_form": "ταῦτα",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---na-",
+							"_relation": "SBJ",
+							"_head": "4"
+						},
+						{
+							"_id": "4",
+							"_form": "ὁμολογηθῆναι",
+							"_lemma": "ὁμολογέω",
+							"_postag": "v--anp---",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "5",
+							"_form": "αὐτῶ",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---mg-",
+							"_relation": "OBJ",
+							"_head": "4"
+						},
+						{
+							"_id": "6",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "7",
+							"_form": "δεδιὼς",
+							"_lemma": "δείδω",
+							"_postag": "v-srpamn-",
+							"_relation": "ADV",
+							"_head": "13"
+						},
+						{
+							"_id": "8",
+							"_form": "τὸν",
+							"_lemma": "ὁ",
+							"_postag": "l-s---ma-",
+							"_relation": "ATR",
+							"_head": "9"
+						},
+						{
+							"_id": "9",
+							"_form": "Ἀριστόδικον",
+							"_lemma": "Ἀριστόδικος",
+							"_postag": "n-s---ma-",
+							"_relation": "OBJ",
+							"_head": "7"
+						},
+						{
+							"_id": "10",
+							"_form": "μεταστὰς",
+							"_lemma": "μεθίστημι",
+							"_postag": "v-sapamn-",
+							"_relation": "ADV",
+							"_head": "13"
+						},
+						{
+							"_id": "11",
+							"_form": "ἐντεῦθεν",
+							"_lemma": "ἐντεῦθεν",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": "Θήβησι",
+							"_lemma": "Θήβησιν",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "13"
+						},
+						{
+							"_id": "13",
+							"_form": "μετῴκει",
+							"_lemma": "μετοικέω",
+							"_postag": "v3siia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "14",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "40",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "15"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καίτοι",
+							"_lemma": "καίτοι",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "2"
+						},
+						{
+							"_id": "2",
+							"_form": "οἶμαι",
+							"_lemma": "οἴομαι",
+							"_postag": "v1spie---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "3",
+							"_form": "εἰδέναι",
+							"_lemma": "οἶδα",
+							"_postag": "v--rna---",
+							"_relation": "OBJ",
+							"_head": "2"
+						},
+						{
+							"_id": "4",
+							"_form": "ὑμᾶς",
+							"_lemma": "σύ",
+							"_postag": "p-p---ma-",
+							"_relation": "SBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "5",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": "εἴπερ",
+							"_lemma": "εἴπερ",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "15"
+						},
+						{
+							"_id": "7",
+							"_form": "ἦν",
+							"_lemma": "εἰμί",
+							"_postag": "v3siia---",
+							"_relation": "ADV",
+							"_head": "6"
+						},
+						{
+							"_id": "8",
+							"_form": "Πλαταιεύς",
+							"_lemma": "Πλαταιεύς",
+							"_postag": "n-s---mn-",
+							"_relation": "PNOM",
+							"_head": "7"
+						},
+						{
+							"_id": "9",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "10",
+							"_form": "πανταχοῦ",
+							"_lemma": "πανταχοῦ",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "17"
+						},
+						{
+							"_id": "11",
+							"_form": "μᾶλλον",
+							"_lemma": "μᾶλλον",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "10"
+						},
+						{
+							"_id": "12",
+							"_form": "ἢ",
+							"_lemma": "ἤ",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "11"
+						},
+						{
+							"_id": "13",
+							"_form": "Θήβησιν",
+							"_lemma": "Θήβησιν",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "19"
+						},
+						{
+							"_id": "14",
+							"_form": "εἰκὸς",
+							"_lemma": "εἰκός",
+							"_postag": "v-srpann-",
+							"_relation": "PNOM",
+							"_head": "15"
+						},
+						{
+							"_id": "15",
+							"_form": "ἦν",
+							"_lemma": "εἰμί",
+							"_postag": "v3siia---",
+							"_relation": "OBJ",
+							"_head": "5"
+						},
+						{
+							"_id": "16",
+							"_form": "αὐτὸν",
+							"_lemma": "αὐτός",
+							"_postag": "p-s---ma-",
+							"_relation": "SBJ",
+							"_head": "17"
+						},
+						{
+							"_id": "17",
+							"_form": "μετοικῆσαι",
+							"_lemma": "μετοικέω",
+							"_postag": "v--ana---",
+							"_relation": "SBJ",
+							"_head": "15"
+						},
+						{
+							"_id": "18",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						},
+						{
+							"_id": "19",
+							"_insertion_id": "0018e",
+							"_artificial": "elliptic",
+							"_relation": "ADV",
+							"_form": "[0]",
+							"_head": "12"
+						}
+					],
+					"_id": "41",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "15"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ὡς",
+							"_lemma": "ὡς",
+							"_postag": "c--------",
+							"_relation": "AuxC",
+							"_head": "8"
+						},
+						{
+							"_id": "2",
+							"_form": "οὖν",
+							"_lemma": "οὖν",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "11"
+						},
+						{
+							"_id": "3",
+							"_form": "ᾤκει",
+							"_lemma": "οἰκέω",
+							"_postag": "v3siia---",
+							"_relation": "ATR",
+							"_head": "1"
+						},
+						{
+							"_id": "4",
+							"_form": "ἐκεῖ",
+							"_lemma": "ἐκεῖ",
+							"_postag": "d--------",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "5",
+							"_form": "πολὺν",
+							"_lemma": "πολύς",
+							"_postag": "a-s---ma-",
+							"_relation": "ATR",
+							"_head": "6"
+						},
+						{
+							"_id": "6",
+							"_form": "χρόνον",
+							"_lemma": "χρόνος",
+							"_postag": "n-s---ma-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "7",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "8",
+							"_form": "τούτων",
+							"_lemma": "οὗτος",
+							"_postag": "p-p---ng-",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "9",
+							"_form": "ὑμῖν",
+							"_lemma": "σύ",
+							"_postag": "p-p---md-",
+							"_relation": "OBJ",
+							"_head": "11"
+						},
+						{
+							"_id": "10",
+							"_form": "μάρτυρας",
+							"_lemma": "μάρτυς",
+							"_postag": "n-p---ma-",
+							"_relation": "OBJ",
+							"_head": "11"
+						},
+						{
+							"_id": "11",
+							"_form": "παρέξομαι",
+							"_lemma": "παρέχω",
+							"_postag": "v1sfim---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "12",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "42",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "15"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "καί",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "ADV",
+							"_head": "3"
+						},
+						{
+							"_id": "3",
+							"_form": "ἐπίλαβε",
+							"_lemma": "ἐπιλαμβάνω",
+							"_postag": "v2sama---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "τὸ",
+							"_lemma": "ὁ",
+							"_postag": "l-s---na-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "ὕδωρ",
+							"_lemma": "ὕδωρ",
+							"_postag": "n-s---na-",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "6",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "43",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "15"
+				},
+				{
+					"word": {
+						"_id": "1",
+						"_form": "Μάρτυρες",
+						"_lemma": "μάρτυς",
+						"_postag": "n-p---mn-",
+						"_relation": "ExD",
+						"_head": "0"
+					},
+					"_id": "44",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "15"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐξαρκεῖν",
+							"_lemma": "ἐξαρκέω",
+							"_postag": "v--pna---",
+							"_relation": "OBJ",
+							"_head": "3"
+						},
+						{
+							"_id": "2",
+							"_form": "μοι",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---md-",
+							"_relation": "OBJ",
+							"_head": "1"
+						},
+						{
+							"_id": "3",
+							"_form": "νομίζω",
+							"_lemma": "νομίζω",
+							"_postag": "v1spia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "4",
+							"_form": "τὰ",
+							"_lemma": "ὁ",
+							"_postag": "l-p---na-",
+							"_relation": "ATR",
+							"_head": "5"
+						},
+						{
+							"_id": "5",
+							"_form": "εἰρημένα",
+							"_lemma": "ἐρῶ",
+							"_postag": "v-prpena-",
+							"_relation": "SBJ",
+							"_head": "1"
+						},
+						{
+							"_id": "6",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "7",
+							"_form": "ὦ",
+							"_lemma": "ὦ",
+							"_postag": "i--------",
+							"_relation": "AuxZ",
+							"_head": "8"
+						},
+						{
+							"_id": "8",
+							"_form": "ἄνδρες",
+							"_lemma": "ἀνήρ",
+							"_postag": "n-p---mv-",
+							"_relation": "ExD",
+							"_head": "3"
+						},
+						{
+							"_id": "9",
+							"_form": "δικασταί",
+							"_lemma": "δικαστής",
+							"_postag": "n-p---mv-",
+							"_relation": "ATR",
+							"_head": "8"
+						},
+						{
+							"_id": "10",
+							"_form": "·",
+							"_lemma": "·",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "45",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "16"
+				},
+				{
+					"word": [
+						{
+							"_id": "1",
+							"_form": "ἐὰν",
+							"_lemma": "ἐάν",
+							"_postag": "c--------",
+							"_relation": "AuxP",
+							"_head": "5"
+						},
+						{
+							"_id": "2",
+							"_form": "γὰρ",
+							"_lemma": "γάρ",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "5"
+						},
+						{
+							"_id": "3",
+							"_form": "διαμνημονεύητε",
+							"_lemma": "διαμνημονεύω",
+							"_postag": "v2ppsa---",
+							"_relation": "ADV",
+							"_head": "1"
+						},
+						{
+							"_id": "4",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "5",
+							"_form": "οἶδ̓",
+							"_lemma": "οἶδα",
+							"_postag": "v1spia---",
+							"_relation": "PRED",
+							"_head": "0"
+						},
+						{
+							"_id": "6",
+							"_form": "ὅτι",
+							"_lemma": "ὅτι",
+							"_postag": "c--------",
+							"_relation": "AuxP",
+							"_head": "5"
+						},
+						{
+							"_id": "7",
+							"_form": "τά",
+							"_lemma": "ὁ",
+							"_postag": "l-p---na-",
+							"_relation": "ATR",
+							"_head": "9"
+						},
+						{
+							"_id": "8",
+							"_form": "τε",
+							"_lemma": "τε",
+							"_postag": "d--------",
+							"_relation": "AuxY",
+							"_head": "10"
+						},
+						{
+							"_id": "9",
+							"_form": "δίκαια",
+							"_lemma": "δίκαιος",
+							"_postag": "a-p---na-",
+							"_relation": "OBJ_CO",
+							"_head": "10"
+						},
+						{
+							"_id": "10",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "c--------",
+							"_relation": "COORD",
+							"_head": "13"
+						},
+						{
+							"_id": "11",
+							"_form": "τ-",
+							"_lemma": "ὁ",
+							"_postag": "l-p---na-",
+							"_relation": "ATR",
+							"_head": "12"
+						},
+						{
+							"_id": "12",
+							"_form": "ἀληθῆ",
+							"_lemma": "ἀληθής",
+							"_postag": "a-p---na-",
+							"_relation": "OBJ_CO",
+							"_head": "10"
+						},
+						{
+							"_id": "13",
+							"_form": "ψηφιεῖσθε",
+							"_lemma": "ψηφίζομαι",
+							"_postag": "v2pfie---",
+							"_relation": "OBJ",
+							"_head": "6"
+						},
+						{
+							"_id": "14",
+							"_form": ",",
+							"_lemma": ",",
+							"_postag": "u--------",
+							"_relation": "AuxX",
+							"_head": "0"
+						},
+						{
+							"_id": "15",
+							"_form": "ἃ",
+							"_lemma": "ὅς",
+							"_postag": "p-p---na-",
+							"_relation": "OBJ",
+							"_head": "19"
+						},
+						{
+							"_id": "16",
+							"_form": "καὶ",
+							"_lemma": "καί",
+							"_postag": "d--------",
+							"_relation": "AuxZ",
+							"_head": "15"
+						},
+						{
+							"_id": "17",
+							"_form": "ἐγὼ",
+							"_lemma": "ἐγώ",
+							"_postag": "p1s---mn-",
+							"_relation": "",
+							"_head": "19"
+						},
+						{
+							"_id": "18",
+							"_form": "ὑμῶν",
+							"_lemma": "σύ",
+							"_postag": "p-p---mg-",
+							"_relation": "OBJ",
+							"_head": "19"
+						},
+						{
+							"_id": "19",
+							"_form": "δέομαι",
+							"_lemma": "δέω",
+							"_postag": "v1spie---",
+							"_relation": "ATR",
+							"_head": "10"
+						},
+						{
+							"_id": "20",
+							"_form": ".",
+							"_lemma": ".",
+							"_postag": "u--------",
+							"_relation": "AuxK",
+							"_head": "0"
+						}
+					],
+					"_id": "46",
+					"_document_id": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+					"_subdoc": "16"
+				}
+			]
+		},
+		"_version": "2",
+		"_xml:lang": "grc",
+		"_cts": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1.tb"
+	}
+}
